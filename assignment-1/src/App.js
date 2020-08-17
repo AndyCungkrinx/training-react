@@ -4,7 +4,13 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 // Import views
 import Home from './views/Home';
 import Cart from './views/Cart';
+import Category from './views/Category';
+
+
+// Contents
 import Navigation from './contents/Navigation';
+import Arrivals from './views/Arrivals';
+import Sellers from './views/Sellers';
 
 //Content
 function Menu() {
@@ -18,6 +24,9 @@ function Menu() {
           </Route>
           <Route path="/home" component={Home} />
           <Route path="/cart" component={Cart} />
+          <Route path="/category" component={Category} />
+          <Route path="/newarrivals" component={Arrivals} />
+          <Route path="/bestsellers" component={Sellers} />
         </Switch>
       </BrowserRouter>
     </div>
