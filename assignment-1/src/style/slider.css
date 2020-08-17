@@ -1,0 +1,17 @@
+
+.awssld__container{
+    --slider-height-percentage: 50%;
+    --slider-width:auto;
+    --slider-transition-duration: 1200ms;
+    --organic-arrow-thickness: 2px;
+    --organic-arrow-border-radius: 0px;
+    --organic-arrow-height: 10px;
+    --organic-arrow-color: #8b9db1;
+    --control-button-width: 10%;
+    --control-button-height: 10%;
+    --control-button-background: transparent;
+    --control-bullet-color: #50a0f7;
+    --control-bullet-active-color: #ea5110;
+    --loader-bar-color: #fd4508;
+    --loader-bar-height: 3px;
+}

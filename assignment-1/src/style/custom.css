@@ -1,0 +1,44 @@
+/* CSS */ 
+
+/* Navigation */ 
+.navbar {
+    border-top: solid 1px #EBEBEB;
+    background-color: #639cf7;
+  }
+  .bottom-tab-nav {
+    border-top: solid 1px #EBEBEB;
+  }
+  .nav-link,
+  .bottom-nav-link {
+    color: #ffffff;
+  }
+  .bottom-nav-link.active {
+    color: #922c88;
+  }
+  .bottom-tab-label {
+    font-size: 12px;
+  }
+.bg-nav {
+  background-color: #639cf7;
+}
+.brand {
+  color: #ffffff;
+}
+.content {
+  padding-bottom: 5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-top: 3.576em;
+}
+
+.space {
+  height: 50px;
+}
+
+.arrival {
+  max-height: 200px;
+}
+
+.coret {
+  color:red;
+}
