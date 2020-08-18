@@ -1,22 +1,18 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // Import views
 import Home from './views/Home';
 import Cart from './views/Cart';
 import Category from './views/Category';
 
-
 // Contents
 import Navigation from './contents/Navigation';
-import Arrivals from './views/Arrivals';
-import Sellers from './views/Sellers';
 
-//Content
-function Menu() {
+function Routing() {
   return (
     <div>
-      <BrowserRouter>
+      <Router>
        <Navigation />
         <Switch>
           <Route exact path="/">
@@ -24,18 +20,17 @@ function Menu() {
           </Route>
           <Route path="/home" component={Home} />
           <Route path="/cart" component={Cart} />
+          <Route path="/category/:categoryId" component={Category} />
           <Route path="/category" component={Category} />
-          <Route path="/newarrivals" component={Arrivals} />
-          <Route path="/bestsellers" component={Sellers} />
         </Switch>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }
 export default function App() {
   return (
     <div>
-      <Menu />
+      <Routing />
     </div>
   );
 }

@@ -12,10 +12,10 @@ function Banner() {
         animation="fallAnimation"
         cssModule={[CoreStyles, AnimationStyles]}
       >
-          <div data-src={ require('../img/banner1.jpg') } />
-          <div data-src={ require('../img/banner2.jpg') } />
-          <div data-src={ require('../img/banner3.jpg') } />
-          <div data-src={ require('../img/banner4.jpg') } />
+          <div object="true" data-src='/img/banner1.jpg' />
+          <div object="true" data-src='/img/banner2.jpg' />
+          <div object="true" data-src='/img/banner3.jpg' />
+          <div object="true" data-src='/img/banner4.jpg' />
         </AwesomeSlider>
       </div>
       </>

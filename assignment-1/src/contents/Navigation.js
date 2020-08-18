@@ -2,20 +2,16 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Nav, NavItem} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
-import {faStarOfLife, faAnchor, faListUl } from '@fortawesome/free-solid-svg-icons';
+import {faStarOfLife, faAnchor } from '@fortawesome/free-solid-svg-icons';
 
 const tabs = [{
-    route: "/newarrivals",
+    route: "/category/1",
     icon: faAnchor,
     label: "New Arrivals"
   },{
-    route: "/bestsellers",
+    route: "/category/2",
     icon: faStarOfLife,
     label: "Best Sellers"
-  },{
-    route: "/category",
-    icon: faListUl,
-    label: "Category"
   }]
 
 const Navigation = () => {
