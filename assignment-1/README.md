@@ -6,7 +6,7 @@
 # How to run
 - npm start
 
-# Live Demo 
+# Live Preview 
 - https://assigment1.andycungkrinx.xyz
 
 # Version
