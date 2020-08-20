@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Websocket from 'react-websocket';
 
 // Import views
 import Home from './views/Home';
@@ -32,6 +33,7 @@ function Routing() {
 export default function App() {
   return (
     <div>
+      <Websocket url='ws://localhost:3000'/>
       <Routing />
     </div>
   );
