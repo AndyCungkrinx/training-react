@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './views/Home';
 import Cart from './views/Cart';
 import Category from './views/Category';
+import DetailProduct from './views/DetailProduct';
 
 // Contents
 import Navigation from './contents/Navigation';
@@ -22,6 +23,7 @@ function Routing() {
           <Route path="/cart" component={Cart} />
           <Route path="/category/:categoryId" component={Category} />
           <Route path="/category" component={Category} />
+          <Route path="/detailproduct" component={DetailProduct} />
         </Switch>
       </Router>
     </div>

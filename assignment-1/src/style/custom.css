@@ -44,3 +44,9 @@
 .category-content {
   padding-bottom: 5.5em;
 }
+.detail-content {
+  margin-top: 4em;
+  padding-bottom: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+}

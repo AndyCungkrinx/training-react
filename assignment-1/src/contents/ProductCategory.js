@@ -1,4 +1,5 @@
 import React from "react";
+import { Link} from "react-router-dom";
 import { CategoryProducts, NewArrivalsProducts, BestSellersProducts } from '../data/DataProducts';
 
 import {
@@ -14,7 +15,7 @@ import {
 } from 'mdbreact';
 
 function ProductCategory({categoryId}){
-  let endpoint= NewArrivalsProducts ;
+  let endpoint= CategoryProducts ;
   if (categoryId) {
     if (categoryId === "1") {
       endpoint = NewArrivalsProducts;
@@ -27,12 +28,12 @@ function ProductCategory({categoryId}){
 return (
   <div>
     {
-      endpoint.map((CategoryProduct, index) => {
+      endpoint.map((endpoint, index) => {
         return (
             <div key={index}>
               <MDBRow>
               {
-                CategoryProduct.products.map((product) =>(
+                endpoint.products.map((product) =>(
                   <MDBCol lg='3' md='6' className='mb-lg-0 mb-4' key={ product.id }>
                     <MDBCard cascade narrow ecommerce>
                       <MDBCardImage
@@ -56,6 +57,16 @@ return (
                             <strong>{product.discount}</strong>
                           </span>
                           <span className='float-right'>
+                          <Link to={`/detailproduct/${endpoint.name}?idcategory=${product.idcategory}&productId=${product.id}`}>
+                            <MDBTooltip domElement placement='top'>
+                              <i className='grey-text fa fa-eye mr-3' />
+                              <span>Detail</span>
+                            </MDBTooltip>
+                          </Link>
+                          <MDBTooltip domElement placement='top'>
+                            <i className='grey-text fa fa-shopping-cart mr-3' />
+                            <span>Add to Cart</span>
+                          </MDBTooltip>
                             <MDBTooltip domElement placement='top'>
                               <i className='red-text fa fa-heart' />
                               <span>Add to Whishlist</span>

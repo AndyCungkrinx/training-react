@@ -21,7 +21,7 @@ return (
     {
       HomepageProducts.map((HomepageProduct) => {
         return (
-          <section className='text-center my-5' key={HomepageProduct.categoryId}>
+          <section className='text-center my-5' key={HomepageProduct.category_Id}>
             <h2 className='h1-responsive font-weight-bold text-center my-5'>{HomepageProduct.name}</h2>
               <p className='grey-text text-center w-responsive mx-auto mb-5'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis
@@ -68,7 +68,7 @@ return (
                 }
                 </MDBRow>
                 <Fragment>
-                <Link to={`/${HomepageProduct.role}/${HomepageProduct.categoryId}`}>
+                <Link to={`/${HomepageProduct.role}/${HomepageProduct.category_Id}`}>
                   <MDBBtn outline color="info">
                     View More
                   </MDBBtn>
