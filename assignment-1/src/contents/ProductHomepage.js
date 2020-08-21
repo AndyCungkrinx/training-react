@@ -33,6 +33,7 @@ return (
                 HomepageProduct.products.map((product) =>(
                   <MDBCol lg='3' md='6' className='mb-lg-0 mb-4' key={ product.id }>
                     <MDBCard cascade narrow ecommerce>
+                    <Link to={`/detailproduct/${product.name}?idcategory=${product.idcategory}&productId=${product.id}`}>
                       <MDBCardImage
                         cascade
                         object="true"
@@ -41,6 +42,7 @@ return (
                         alt='sample photo'
                         overlay='white-slight'
                       />
+                      </Link>
                       <MDBBadge className='float-left' color='warning'>{product.category}</MDBBadge>
                       <MDBCardBody cascade className='text-center'>
                         <MDBCardTitle>
