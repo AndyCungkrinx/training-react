@@ -1,0 +1,58 @@
+/* CSS */ 
+
+/* Navigation */ 
+  .nav-link,
+  .nav-link {
+    color: #ffffff;
+  }
+  .nav-link.active {
+    color: #ef6c00;
+  }
+  .bottom-tab-label {
+    font-size: 12px;
+  }
+.brand {
+  color: #ffffff;
+}
+.content {
+  padding-bottom: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-top: 3.576em;
+}
+
+.space {
+  height: 50px;
+}
+
+.arrival {
+  max-height: 200px;
+}
+
+.coret {
+  color:red;
+}
+
+.category-1 {
+  margin-top: 3em;
+}
+
+.category-2 {
+  margin-top: 2em;
+}
+
+.category-content {
+  padding-bottom: 5.5em;
+}
+
+.detail-content {
+  margin-top: 4em;
+  padding-bottom: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.page-account {
+  margin-top: 6em;
+  
+}
