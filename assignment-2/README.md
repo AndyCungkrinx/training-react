@@ -3,6 +3,7 @@
 - cd assignment-2
 - npm install -f
 - npm install --unsafe-perm node-sass
+- npm install formik --save
 
 # How to run
 - npm start
