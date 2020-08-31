@@ -3,10 +3,10 @@
 - cd assignment-2
 - npm install -f
 - npm install --unsafe-perm node-sass
-- npm install formik --save
+- npm install react-scripts formik redux-devtools-extension yup --save
 
 # How to run
-- npm start
+- npm run start
 
 # Live Preview 
 - https://assignment2.andycungkrinx.xyz
