@@ -6,7 +6,7 @@ import { Provider } from "react-redux";
 import Home from './pages/home';
 import Category from './pages/category';
 import DetailProduct from './pages/detailproduct';
-import Cart from "./pages/cart";
+import addCart from "./pages/cart";
 import UserPage from "./pages/user";
 import Dashboard from "./pages/user/components/Dashboard";
 import store from "./redux/store";
@@ -24,7 +24,7 @@ function Routing(setOpen) {
            <Home />
           </Route>
           <Route path="/home" component={Home} />
-          <Route path="/cart" component={Cart} />
+          <Route path="/cart" component={addCart} />
           <Route path="/category/:categoryId" component={Category} />
           <Route path="/category" component={Category} />
           <Route path="/detailproduct" component={DetailProduct} />

@@ -49,7 +49,7 @@ export const HomepageProducts = [
     name: "Best Sellers",
     products:
     [{
-          id: "1",
+          id: "9",
           title: "Denim Shirt",
           price: "120$",
           discount: "95$",
@@ -58,7 +58,7 @@ export const HomepageProducts = [
           description:"Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.",
           img: "/img/12.jpg"
       },{
-          id: "2",
+          id: "10",
           title: "Sweat Shirt",
           price: "139$",
           discount: "122$",
@@ -68,7 +68,7 @@ export const HomepageProducts = [
           img: "/img/13.jpg"
 
       },{
-          id: "3",
+          id: "11",
           title: "Grey Blouse",
           price: "99$",
           discount: "80$",
@@ -77,7 +77,7 @@ export const HomepageProducts = [
           description:"Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.",
           img: "/img/14.jpg"
       },{
-          id: "4",
+          id: "12",
           title: "Black Jacket",
           price: "219$",
           discount: "200$",
@@ -176,7 +176,7 @@ export const CategoryProducts = [
     name: "Best Sellers",
     products:
     [{
-          id: "1",
+          id: "9",
           title: "Denim Shirt",
           price: "120$",
           discount: "100$",
@@ -185,7 +185,7 @@ export const CategoryProducts = [
           description:"Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.",
           img: "/img/12.jpg"
       },{
-          id: "2",
+          id: "10",
           title: "Sweat Shirt",
           price: "139$",
           discount: "120$",
@@ -195,7 +195,7 @@ export const CategoryProducts = [
           img: "/img/13.jpg"
 
       },{
-          id: "3",
+          id: "11",
           title: "Grey Blouse",
           price: "99$",
           discount: "70$",
@@ -204,7 +204,7 @@ export const CategoryProducts = [
           description:"Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.",
           img: "/img/14.jpg"
       },{
-          id: "4",
+          id: "12",
           title: "Black Jacket",
           price: "219$",
           discount: "150$",
@@ -213,7 +213,7 @@ export const CategoryProducts = [
           description:"Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.",
           img: "/img/15.jpg"
       },{
-          id: "5",
+          id: "13",
           title: "Best Seller 5",
           price: "157$",
           discount: "135$",
@@ -222,7 +222,7 @@ export const CategoryProducts = [
           description:"Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.",
           img: "/img/9.jpg"
       },{
-          id: "6",
+          id: "14",
           title: "Best Seller 6",
           price: "125$",
           discount: "110$",
@@ -231,7 +231,7 @@ export const CategoryProducts = [
           description:"Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.",
           img: "/img/10.jpg"
       },{
-          id: "7",
+          id: "15",
           title: "Best Seller 7",
           price: "186$",
           discount: "155$",
@@ -240,7 +240,7 @@ export const CategoryProducts = [
           description:"Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.",
           img: "/img/11.jpg"
       },{
-          id: "8",
+          id: "16",
           title: "Best Seller 8",
           price: "125$",
           discount: "90$",
@@ -342,7 +342,7 @@ export const BestSellersProducts = [
       name: "Best Sellers",
       products:
       [{
-            id: "1",
+            id: "9",
             title: "Denim Shirt",
             price: "120$",
             discount: "100$",
@@ -351,7 +351,7 @@ export const BestSellersProducts = [
             description:"Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.",
             img: "/img/12.jpg"
         },{
-            id: "2",
+            id: "10",
             title: "Sweat Shirt",
             price: "139$",
             discount: "120$",
@@ -361,7 +361,7 @@ export const BestSellersProducts = [
             img: "/img/13.jpg"
   
         },{
-            id: "3",
+            id: "11",
             title: "Grey Blouse",
             price: "99$",
             discount: "70$",
@@ -370,7 +370,7 @@ export const BestSellersProducts = [
             description:"Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.",
             img: "/img/14.jpg"
         },{
-            id: "4",
+            id: "12",
             title: "Black Jacket",
             price: "219$",
             discount: "150$",
@@ -379,7 +379,7 @@ export const BestSellersProducts = [
             description:"Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.",
             img: "/img/15.jpg"
         },{
-            id: "5",
+            id: "13",
             title: "Best Seller 5",
             price: "157$",
             discount: "135$",
@@ -388,7 +388,7 @@ export const BestSellersProducts = [
             description:"Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.",
             img: "/img/9.jpg"
         },{
-            id: "6",
+            id: "14",
             title: "Best Seller 6",
             price: "125$",
             discount: "110$",
@@ -397,7 +397,7 @@ export const BestSellersProducts = [
             description:"Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.",
             img: "/img/10.jpg"
         },{
-            id: "7",
+            id: "15",
             title: "Best Seller 7",
             price: "186$",
             discount: "155$",
@@ -406,7 +406,7 @@ export const BestSellersProducts = [
             description:"Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam, aperiam minima elit assumenda voluptate velit.",
             img: "/img/11.jpg"
         },{
-            id: "8",
+            id: "16",
             title: "Best Seller 8",
             price: "125$",
             discount: "90$",

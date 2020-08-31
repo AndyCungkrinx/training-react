@@ -1,5 +1,6 @@
 # How to install
 - git clone https://github.com/AndyCungkrinx/training-react.git
+- cd assignment-2
 - npm install -f
 - npm install --unsafe-perm node-sass
 
@@ -7,7 +8,7 @@
 - npm start
 
 # Live Preview 
-- https://assigment1.andycungkrinx.xyz
+- https://assignment2.andycungkrinx.xyz
 
 # Version
 - Node v12.18.3
