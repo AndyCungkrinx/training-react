@@ -3,7 +3,7 @@
 - cd assignment-2
 - npm install -f
 - npm install --unsafe-perm node-sass
-- npm install react-scripts formik redux-devtools-extension yup --save
+- npm install react-scripts react-redux redux edux-thunk formik redux-devtools-extension yup --save
 
 # How to run
 - npm run start
