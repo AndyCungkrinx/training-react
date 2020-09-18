@@ -10,6 +10,7 @@ export default function Index() {
     <Container style={{maxWidth:'lg'}}>
       <Navigasi />
       <Box my={4}>
+      <div style={{height:33}}></div>
         <Homepage/>
         <div style={{height:200}}></div>
         <Typography variant="body2" color="textSecondary" align="center">

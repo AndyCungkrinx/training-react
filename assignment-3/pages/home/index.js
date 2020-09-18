@@ -5,7 +5,7 @@ import SectionTwo from './components/SectionTwo';
 
 export default function Homepage() {
     return(
-        <div style={{marginTop:'4.5em'}}>
+        <div>
             <Banner />
             <div style={{height:100}}></div>
             <SectionOne />
