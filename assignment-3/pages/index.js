@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Box} from '@material-ui/core';
+import {Container, Box, Typography} from '@material-ui/core';
 import Homepage from './home';
 import Copyright from '../src/Copyright';
 
@@ -13,7 +13,9 @@ export default function Index() {
       <Box my={4}>
         <Homepage/>
         <div style={{height:200}}></div>
-        <Copyright />
+        <Typography variant="body2" color="textSecondary" align="center">
+          Copyright© Andy Cungkrinx 2020
+        </Typography>
       </Box>
     </Container>
   );
