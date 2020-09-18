@@ -5,9 +5,9 @@ export default function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
-      <MuiLink color="inherit" href="">
+      <Typography variant="body2" color="textSecondary" align="center">
         Andy Cungkrinx 2020
-      </MuiLink>
+      </Typography>
     </Typography>
   );
 }
