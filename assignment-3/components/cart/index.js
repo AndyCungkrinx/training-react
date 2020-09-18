@@ -29,6 +29,11 @@ const useStyles = makeStyles((theme) => ({
     minWidth: 300,
     width:'100%',
   },
+  media: {
+    height: 70,
+    width: '60%',
+    margin: 'auto',
+  },
 }));
 
 const Cart = () => {
@@ -58,6 +63,9 @@ const Cart = () => {
       <Table className={classes.table} aria-label="simple table">
         <TableHead>
           <TableRow>
+            <TableCell colSpan={8} style={{backgroundColor:'red', color:'white'}}>Cart</TableCell>
+          </TableRow>
+          <TableRow>
             <TableCell>Image</TableCell>
             <TableCell align="right">SKU</TableCell>
             <TableCell align="right">Name</TableCell>
@@ -69,7 +77,7 @@ const Cart = () => {
           {cart.map((val,idx) => (
             <TableRow key={idx}>
               <TableCell component="th" scope="row">
-                {val.name}
+              <img src={val.image} alt={val.name} className={classes.media}/>
               </TableCell>
               <TableCell align="right">{val.sku}</TableCell>
               <TableCell align="right">{val.name}</TableCell>
