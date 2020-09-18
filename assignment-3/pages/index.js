@@ -12,7 +12,7 @@ export default function Index() {
       <Navigasi />
       <Box my={4}>
         <Homepage/>
-        <div style={{height:400}}></div>
+        <div style={{height:200}}></div>
         <Copyright />
       </Box>
     </Container>
