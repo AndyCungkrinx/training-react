@@ -4,15 +4,15 @@ http://localhost:3003
 ## Live Preview
 https://assignment3.andycungkrinx.xyz/
 
-## How to use
+## How to Install
 ```sh
-curl https://codeload.github.com/mui-org/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/nextjs
-cd nextjs
+git clone https://github.com/AndyCungkrinx/training-react.git
+cd assignment-3
+npm install
 ```
 
-Install it and run:
+## How to Run
 
 ```sh
-npm install
 npm run dev
 ```
