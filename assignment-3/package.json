@@ -1,0 +1,27 @@
+{
+  "name": "assignment-3",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.1.4",
+    "@apollo/react-ssr": "^4.0.0",
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "latest",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "clsx": "latest",
+    "fontsource-roboto": "^3.0.3",
+    "graphql": "^15.3.0",
+    "material-ui-rating": "^4.2.0",
+    "next": "^9.5.3",
+    "prop-types": "latest",
+    "react": "^16.13.1",
+    "react-awesome-slider": "^4.1.0",
+    "react-dom": "^16.13.1",
+    "react-multi-carousel": "^2.5.5"
+  },
+  "scripts": {
+    "dev": "next dev -p 3003",
+    "build": "next build",
+    "start": "next start"
+  }
+}
