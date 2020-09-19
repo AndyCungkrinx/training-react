@@ -217,7 +217,7 @@ function ProductId(props) {
             <Paper className={classes.paper}>
             {item.map((tab, idw) => (
             <div key={idw}>
-              <PanelBottom papSku = {sku}/>
+              <PanelBottom papSku = {tab.sku}/>
             </div>
             ))}
             </Paper>
