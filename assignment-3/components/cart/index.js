@@ -93,4 +93,4 @@ const Cart = () => {
     };
   }
 
-export default withApollo({ ssr: false })(Cart);
+export default withApollo({ ssr: true })(Cart);
