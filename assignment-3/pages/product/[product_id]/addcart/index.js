@@ -37,4 +37,4 @@ const AddCart = ({name,sku,image,currency,price,qty}) => {
 };
 
 
-export default withApollo({ ssr: true })(AddCart);
+export default withApollo({ ssr: false })(AddCart);
