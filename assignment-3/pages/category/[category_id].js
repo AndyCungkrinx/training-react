@@ -168,9 +168,9 @@ function CategoryId(props) {
               <Typography gutterBottom align="center">
                 {prod.name}
               </Typography>
-              <Typography gutterBottom align="center" color="primary">
+              <p style={{color:'red'}}>
               {prod.price_range.maximum_price.final_price.value} {prod.price_range.maximum_price.final_price.currency}
-              </Typography>
+              </p>
             </CardContent>
           </CardActionArea>
           <CardActions>
