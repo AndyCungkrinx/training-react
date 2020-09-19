@@ -57,15 +57,6 @@ export const GET_CART_ITEMS = gql`
     cartItems @client
   }
 `;
-const ReadState = () => {
-
-  const { cart } = useQuery(GET_CART_ITEMS);
-  console.log(cart)
-  
-  return (
-    <p>read state</p>
-  );
-};
 
 const cartItems = cartItemsVar();
 
@@ -113,10 +104,10 @@ const useStyles = makeStyles((theme) => ({
 function ProductId(props) {
   const classes = useStyles();
   const router = useRouter();
-  const sku = router.query.sku;
+  const mysku = router.query.sku;
   const response = useQuery(PRODUCT_LIST, {
     variables: {
-      sku: sku,
+      sku: mysku,
     },
   });
   const { loading, error, data } = response;
@@ -131,10 +122,10 @@ function ProductId(props) {
   const galeri = data.products.items[0].media_gallery;
   //console.log(item); 
   //console.log(galeri);
-  const handleChange = (event) => {
+  const handleClick = (event) => {
     setQty(document.getElementById("qty").value);
   };
-  const [qty, setQty] = cartItemsVar([...cartItems, ...item]);
+  const [qty, setQty] =useState(1);
   
   return (
     <>
@@ -199,7 +190,6 @@ function ProductId(props) {
                       label="Quantity"
                       type="number"
                       defaultValue={qty}
-                      onChange={() => handleChange()}
                       InputLabelProps={{
                         shrink: true,
                       }}
@@ -214,6 +204,7 @@ function ProductId(props) {
                       price={it.price_range.maximum_price.final_price.value}
                       image={it.small_image.url}
                       qty= {qty}
+                      onClick={() => handleSave()}
                       />
                     </div>
                   </CardContent>
