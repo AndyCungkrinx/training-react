@@ -230,4 +230,4 @@ function ProductId(props) {
   )
 }
 
-export default withApollo({ ssr: true })(ProductId);
+export default withApollo({ ssr: false })(ProductId);
