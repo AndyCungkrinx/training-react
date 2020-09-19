@@ -94,9 +94,6 @@ function PanelBottom({item_id, sku}) {
   const item = data.products.items;
   const more = data.products.items[0].more_info;
   //console.log(more);
-  function createMarkup() {
-    return {__html: 'First &middot; Second'};
-  }
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -121,12 +118,9 @@ function PanelBottom({item_id, sku}) {
       </AppBar>
       <TabPanel value={value} index={0}>
         {item.map((valo, idx) => {
-          function createMore() {
-            return {__html: `${valo.description.html}`};
-          }
           return (
             <div key={idx}>
-              <div dangerouslySetInnerHTML={createMore()}/>
+              {valo.description.html}
             </div>
           );
         })}
