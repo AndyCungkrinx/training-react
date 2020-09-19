@@ -134,7 +134,7 @@ function ProductId(props) {
   const handleChange = (event) => {
     setQty(document.getElementById("qty").value);
   };
-    const [qty, setQty] = useState([0]);
+  const [qty, setQty] = cartItemsVar([...cartItems, ...item]);
   
   return (
     <>
