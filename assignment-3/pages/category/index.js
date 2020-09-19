@@ -1,7 +1,6 @@
 import { useQuery, gql } from '@apollo/client';
 import ErrorAlert from '../../components/error';
 import Navigasi from '../../components/navigation';
-import ErrorAlert from '../../components/error';
 import {withApollo} from '../../lib/apollo';
 
 const CATEGORY_LIST = gql`
