@@ -32,6 +32,7 @@ const useStyles = makeStyles((theme) => ({
   media: {
     height: 90,
     width: '50%',
+    maxWidth: 200,
     margin: 'auto',
   },
 }));
