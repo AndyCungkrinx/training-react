@@ -134,12 +134,7 @@ function ProductId(props) {
   const handleChange = (event) => {
     setQty(document.getElementById("qty").value);
   };
-  if (qty===0){
-    const [qty, setQty] = useState([]);
-  }
-  else{
-    cartItemsVar([...cartItems, ...item]);
-  }
+    const [qty, setQty] = useState([0]);
   
   return (
     <>
