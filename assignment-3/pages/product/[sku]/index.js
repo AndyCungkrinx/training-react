@@ -112,21 +112,10 @@ function ProductId(props) {
   const galeri = data.products.items[0].media_gallery;
   //console.log(item); 
   //console.log(galeri);
-  const qty = useState(0);
-  // const handleChange = (qty) => {
-  //   setQty(document.getElementById("qty").value);
-  // };
-  constructor(props) {
-    super(props);
-    this.state = {
-      qty: '',
-    };
-  }
+  const [qty, setQty] = useState(1);
   const handleChange = (event) => {
-    let nam = event.target.name;
-    let valu = event.target.value;
-    this.setState({[nam]: valu});
-  }
+    setQty(event.target.value);
+  };
   
   return (
     <>
@@ -190,8 +179,9 @@ function ProductId(props) {
                       name="qty"
                       label="Quantity"
                       type="number"
-                      defaultValue={this.state.qty}
-                      onChange={this.handleChange}
+                      defaultValue='1'
+                      value={qty}
+                      onChange={handleChange}
                       InputLabelProps={{
                         shrink: true,
                       }}
@@ -205,7 +195,7 @@ function ProductId(props) {
                       cartCurrency={it.price_range.maximum_price.final_price.currency}
                       cartPrice={it.price_range.maximum_price.final_price.value}
                       cartImage={it.small_image.url}
-                      cartQty= {this.state.qty}
+                      cartQty= {qty}
                       />
                     </div>
                   </CardContent>
