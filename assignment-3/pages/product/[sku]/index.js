@@ -15,8 +15,8 @@ import ErrorAlert from '../../../components/error';
 import AddCart from '../addcart';
 
 const PRODUCT_LIST = gql`
-query ($ids: String!, $sku:String!) {
-  products(filter:{category_id:{eq: $ids}, sku:{eq:$sku}}) {
+query ( $sku:String!) {
+  products(filter:{ sku:{eq:$sku}}) {
     items {
       id	
       name
@@ -42,37 +42,6 @@ query ($ids: String!, $sku:String!) {
           final_price {
             value
             currency
-          }
-        }
-      }
-    }
-  }
-  categoryList(filters: { ids: { eq: $ids } }) {
-    id
-    name
-    url_key
-    url_path
-    display_mode
-    product_count
-    image_path
-    description
-    products (pageSize: 20) {
-      total_count
-      items {
-        id
-        name
-        sku
-        sale
-        small_image{
-            url
-            label
-        }
-      price_range {
-        maximum_price {
-          final_price {
-            value
-            currency
-            }
           }
         }
       }
@@ -127,11 +96,9 @@ const useStyles = makeStyles((theme) => ({
 function ProductId(props) {
   const classes = useStyles();
   const router = useRouter();
-  const id = router.query.product_id;
   const sku = router.query.sku;
   const response = useQuery(PRODUCT_LIST, {
     variables: {
-      ids: id,
       sku: sku,
     },
   });
@@ -145,7 +112,6 @@ function ProductId(props) {
   }
   const item = data.products.items;
   const galeri = data.products.items[0].media_gallery;
-  const category = data.categoryList;
   //console.log(item); 
   //console.log(galeri);
   return (
@@ -156,9 +122,7 @@ function ProductId(props) {
         <Grid container spacing={1}>
           <Grid item xs={12}>
             <div className={classes.paper}>
-            {category.map((val, idx) => {
-              return (
-                <div key={idx} style={{paddingTop:20, paddingBottom:20}}>
+                <div style={{paddingTop:20, paddingBottom:20}}>
                   <Breadcrumbs aria-label="breadcrumb">
                     <Typography variant="body2" className={classes.breadcumb}>
                       <HomeIcon className={classes.icon} />
@@ -166,7 +130,7 @@ function ProductId(props) {
                       </Typography>
                     <Typography variant="body2" className={classes.breadcumb}>
                       <WhatshotIcon className={classes.icon} />
-                        {val.name}
+                        Detail Product
                     </Typography>
                     {item.map((br, idb) => {
                       return (
@@ -178,8 +142,6 @@ function ProductId(props) {
                     })}
                   </Breadcrumbs>
                 </div>
-              );
-            })}
             </div>
           </Grid>
           <Grid item xs={12} sm={6}>
