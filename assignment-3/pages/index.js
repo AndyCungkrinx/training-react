@@ -8,7 +8,6 @@ import Navigasi from '../components/navigation';
 export default function Index() {
   return (
     <Container style={{maxWidth:'lg'}}>
-      <Navigasi />
       <Box my={4}>
       <div style={{height:33}}></div>
         <Homepage/>
@@ -17,6 +16,7 @@ export default function Index() {
           Copyright© Andy Cungkrinx 2020
         </Typography>
       </Box>
+      <Navigasi />
     </Container>
   );
 }
