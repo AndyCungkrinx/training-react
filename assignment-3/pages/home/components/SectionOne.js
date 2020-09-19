@@ -1,10 +1,11 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import {Link, Card, CardActionArea, CardActions, CardContent, CardMedia, Button, Typography} from '@material-ui/core';
+import { Card, CardActionArea, CardActions, CardContent, CardMedia, Button, Typography} from '@material-ui/core';
 import { useQuery, gql } from "@apollo/client";
 import {withApollo} from '../../../lib/apollo';
 import Carousel from "react-multi-carousel";
 import ErrorAlert from '../../../components/error';
+import Link from 'next/link';
 
 
 const DIRUMAH_LIST = gql`
@@ -94,8 +95,8 @@ const SectionOne = (props) => {
       return (
         <div key={idx}>
           <Typography component="h2" variant="h4" align="center" color="textPrimary" gutterBottom>
-            <Link href={`/category/${val.id}`} style={{color:'black'}}>
-              {val.name}
+            <Link href="/category/[category_id]" as={`/category/${val.id}`}>
+              <div style={{color:'black'}}>{val.name}</div>
             </Link>
           </Typography>
           <div style={{height:50}}></div>

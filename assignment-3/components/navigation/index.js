@@ -2,19 +2,19 @@ import React from 'react';
 import clsx from 'clsx';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import { Typography, Divider, IconButton, ListItem, ListItemIcon, ListItemText  } from '@material-ui/core';
-import {Link, Tooltip, Fab,  Drawer, AppBar, Toolbar, CssBaseline, List } from '@material-ui/core';
+import {  Drawer, AppBar, Toolbar, CssBaseline, List } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import HomeRounded from '@material-ui/icons/HomeRounded';
 import BusinessCenterRoundedIcon from '@material-ui/icons/BusinessCenterRounded';
 import FormatListBulletedRoundedIcon from '@material-ui/icons/FormatListBulletedRounded';
-import ShoppingBasketOutlinedIcon from '@material-ui/icons/ShoppingBasketOutlined';
 import { useQuery, gql } from "@apollo/client";
 import {withApollo} from '../../lib/apollo';
 import Loading from '../loading';
 import ErrorAlert from '../error';
 import CartButton from './CartButton';
+import Link from 'next/link';
 
 const MENU_LIST = gql`
 query {
@@ -197,8 +197,8 @@ function Navigasi() {
           {category.map((nav,idy) => {
             return (
             <ListItem button key={idy}>
-              <Link href={`/category/${nav.id}`} color="inherit">
-                <ListItemText primary={nav.name}/>
+              <Link href="/category/[category_id]" as={`/category/${nav.id}`}>
+                <div style={{color:'black'}}><ListItemText primary={nav.name}/></div>
               </Link>
             </ListItem>
             );

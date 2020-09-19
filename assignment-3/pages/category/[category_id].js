@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Link, Breadcrumbs, Paper, Container, Card, Grid, CardActionArea, CardActions, CardContent, CardMedia, Button, Typography} from '@material-ui/core';
+import { Breadcrumbs, Paper, Container, Card, Grid, CardActionArea, CardActions, CardContent, CardMedia, Button, Typography} from '@material-ui/core';
 import HomeIcon from '@material-ui/icons/Home';
 import WhatshotIcon from '@material-ui/icons/Whatshot';
 import GrainIcon from '@material-ui/icons/Grain';
@@ -10,6 +10,7 @@ import { useQuery, gql } from "@apollo/client";
 import { withApollo} from "../../lib/apollo";
 import Loading from '../../components/loading';
 import ErrorAlert from '../../components/error';
+import Link from 'next/link';
 //import Link from 'next/link';
 
 const CATEGORY_ID = gql`
@@ -156,7 +157,7 @@ function CategoryId(props) {
       <Grid container spacing={1}>
       {product.map((prod, idz) => (
         <Grid item xs={12} sm={3} key={idz}>
-        <Link href={`/product/${category_id}?sku=${prod.sku}`}>
+        <Link href="/product/[product_id]/[sku]" as={`/product/${category_id}/${prod.sku}`}>
         <Card className={classes.paper}>
           <CardActionArea >
             <CardMedia
