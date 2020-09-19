@@ -114,10 +114,11 @@ function ProductId(props) {
   const galeri = data.products.items[0].media_gallery;
   //console.log(item); 
   //console.log(galeri);
-  const [qty, setQty] = useState(0);
   const handleChange = (event) => {
     setQty(document.getElementById("qty").value);
   };
+  const [qty, setQty] = useState([]);
+  
   return (
     <>
     <Navigasi />
