@@ -11,6 +11,7 @@ git clone https://github.com/AndyCungkrinx/training-react.git
 cd training-react/assignment-3
 npm install -f
 npm i fsevents@latest -f --save-optional
+npx react-codemod rename-unsafe-lifecycles
 ```
 
 ## How to Run
