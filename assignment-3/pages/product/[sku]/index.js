@@ -1,17 +1,17 @@
 import React, {useState} from 'react';
 import { useRouter } from "next/router";
 import { useQuery, gql } from "@apollo/client";
-import { withApollo} from "../../../../lib/apollo";
-import Loading from '../../../../components/loading';
+import { withApollo} from "../../../lib/apollo";
+import Loading from '../../../components/loading';
 import { Breadcrumbs, Container, Paper, Grid, CardContent, TextField, Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import Navigasi from '../../../../components/navigation';
+import Navigasi from '../../../components/navigation';
 import Carousel from "react-multi-carousel";
 import HomeIcon from '@material-ui/icons/Home';
 import WhatshotIcon from '@material-ui/icons/Whatshot';
 import GrainIcon from '@material-ui/icons/Grain';
-import PanelBottom from '../../components/TabsPanel';
-import ErrorAlert from '../../../../components/error';
+import PanelBottom from '../components/TabsPanel';
+import ErrorAlert from '../../../components/error';
 import AddCart from '../addcart';
 
 const PRODUCT_LIST = gql`

@@ -157,7 +157,7 @@ function CategoryId(props) {
       <Grid container spacing={1}>
       {product.map((prod, idz) => (
         <Grid item xs={12} sm={3} key={idz}>
-        <Link href="/product/[product_id]/[sku]" as={`/product/${category_id}/${prod.sku}`}>
+        <Link href="/product/[sku]" as={`/product/${prod.sku}`}>
         <Card className={classes.paper}>
           <CardActionArea >
             <CardMedia

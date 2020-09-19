@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { withApollo } from "../../../../lib/apollo";
+import { withApollo } from "../../../lib/apollo";
 import { Button } from '@material-ui/core';
-import { cartItemsVar } from "../../../../apollo/resolver";
+import { cartItemsVar } from "../../../apollo/resolver";
 
 const AddCart = ({name,sku,image,currency,price,qty}) => {
   const cartItems = cartItemsVar();

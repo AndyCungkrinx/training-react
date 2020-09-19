@@ -96,7 +96,7 @@ const SectionOne = (props) => {
         <div key={idx}>
           <Typography component="h2" variant="h4" align="center" color="textPrimary" gutterBottom>
             <Link href="/category/[category_id]" as={`/category/${val.id}`}>
-              <div style={{color:'black'}}>{val.name}</div>
+              <a style={{color:'black'}}>{val.name}</a>
             </Link>
           </Typography>
           <div style={{height:50}}></div>
