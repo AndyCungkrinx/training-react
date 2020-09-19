@@ -210,4 +210,4 @@ function Navigasi() {
   );
 }
 
-export default withApollo({ ssr: true })(Navigasi);
+export default withApollo({ ssr: false })(Navigasi);

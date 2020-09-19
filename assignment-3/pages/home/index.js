@@ -5,13 +5,13 @@ import SectionTwo from './components/SectionTwo';
 
 export default function Homepage() {
     return(
-        <div>
+        <>
             <Banner />
             <div style={{height:100}}></div>
             <SectionOne />
             <div style={{height:100}}></div>
             <SectionTwo />
-        </div>
+        </>
     )
 
 }

@@ -9,14 +9,14 @@ export default function Index() {
   return (
     <Container style={{maxWidth:'lg'}}>
       <Navigasi />
-      <div>
+      <Box my={4}>
       <div style={{height:33}}></div>
         <Homepage/>
         <div style={{height:200}}></div>
         <Typography variant="body2" color="textSecondary" align="center">
           Copyright© Andy Cungkrinx 2020
         </Typography>
-      </div>
+      </Box>
     </Container>
   );
 }
