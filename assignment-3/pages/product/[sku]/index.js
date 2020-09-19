@@ -118,10 +118,14 @@ function ProductId(props) {
   // };
   constructor(props) {
     super(props);
-    this.state = {qty: '' };
+    this.state = {
+      qty: '',
+    };
   }
   const handleChange = (event) => {
-    this.setState({qty: event.target.value});
+    let nam = event.target.name;
+    let valu = event.target.value;
+    this.setState({[nam]: valu});
   }
   
   return (
