@@ -147,4 +147,4 @@ function PanelBottom({item_id, sku}) {
   );
 }
 
-export default withApollo({ ssr: true })(PanelBottom);
+export default withApollo({ ssr: false })(PanelBottom);
