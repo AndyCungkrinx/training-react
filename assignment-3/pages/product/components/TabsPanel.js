@@ -74,13 +74,13 @@ function a11yProps(index) {
   };
 }
 
-function PanelBottom({ sku}) {
+function PanelBottom({ papSku}) {
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
   const response = useQuery(PRODUCT_LIST, {
     variables: {
-      sku: sku,
+      sku: papSku,
     },
   });
   const { loading, error, data } = response;

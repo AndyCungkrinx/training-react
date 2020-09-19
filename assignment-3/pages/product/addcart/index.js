@@ -3,19 +3,19 @@ import { withApollo } from "../../../lib/apollo";
 import { Button } from '@material-ui/core';
 import { cartItemsVar } from "../../../apollo/resolver";
 
-const AddCart = ({name,sku,image,currency,price,qty}) => {
+const AddCart = ({cartName,cartSku,cartImage,cartCurrency,cartPrice,cartQty}) => {
   const cartItems = cartItemsVar();
   const [count, setCount] = useState(0);
   
   const item = [
     {
       id: count,
-      sku: sku,
-      name: name,
-      image:image,
-      currency:currency,
-      price:price,
-      qty:qty,
+      sku: cartSku,
+      name: cartName,
+      image:cartImage,
+      currency:cartCurrency,
+      price:cartPrice,
+      qty:cartQty,
     },
   ];
   //console.log(item);
@@ -37,4 +37,4 @@ const AddCart = ({name,sku,image,currency,price,qty}) => {
 };
 
 
-export default withApollo({ ssr: true })(AddCart);
+export default withApollo({ ssr: false })(AddCart);

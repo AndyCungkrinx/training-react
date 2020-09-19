@@ -122,9 +122,10 @@ function ProductId(props) {
   const galeri = data.products.items[0].media_gallery;
   //console.log(item); 
   //console.log(galeri);
-  const handleSave = (event) => {
+  const handleChange = (event) => {
     setQty(document.getElementById("qty").value);
   };
+  const [qty, setQty] = cartItemsVar([...cartItems, ...item]);
   
   return (
     <>
@@ -169,7 +170,7 @@ function ProductId(props) {
           </Grid>
           <Grid item xs={12} sm={6}>
             <div style={{paddingLeft:20}}>
-              {item.map((it, idx, qty) => {
+              {item.map((it, idx) => {
                 return (
                 <div key={idx}>
                   <CardContent style={{textAlign: 'left',}}>
@@ -188,7 +189,8 @@ function ProductId(props) {
                       name="qty"
                       label="Quantity"
                       type="number"
-                      defaultValue= '1'
+                      defaultValue='1'
+                      onChange={() => handleChange()}
                       InputLabelProps={{
                         shrink: true,
                       }}
@@ -197,13 +199,12 @@ function ProductId(props) {
                     </div>
                     <div style={{paddingTop:15,}}>
                       <AddCart 
-                      name={it.name}
-                      sku={it.sku}
-                      currency={it.price_range.maximum_price.final_price.currency}
-                      price={it.price_range.maximum_price.final_price.value}
-                      image={it.small_image.url}
-                      qty= {qty}
-                      onClick={() => handleSave()}
+                      cartName={it.name}
+                      cartSku={it.sku}
+                      cartCurrency={it.price_range.maximum_price.final_price.currency}
+                      cartPrice={it.price_range.maximum_price.final_price.value}
+                      cartImage={it.small_image.url}
+                      cartQty= {qty}
                       />
                     </div>
                   </CardContent>
@@ -216,7 +217,7 @@ function ProductId(props) {
             <Paper className={classes.paper}>
             {item.map((tab, idw) => (
             <div key={idw}>
-              <PanelBottom sku = {tab.sku}/>
+              <PanelBottom papSku = {sku}/>
             </div>
             ))}
             </Paper>
