@@ -23,5 +23,8 @@
     "dev": "next dev -p 3003",
     "build": "next build",
     "start": "next start"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.1.3"
   }
 }
