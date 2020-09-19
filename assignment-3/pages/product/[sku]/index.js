@@ -169,7 +169,7 @@ function ProductId(props) {
           </Grid>
           <Grid item xs={12} sm={6}>
             <div style={{paddingLeft:20}}>
-              {item.map((it, idx) => {
+              {item.map((it, idx, qty) => {
                 return (
                 <div key={idx}>
                   <CardContent style={{textAlign: 'left',}}>
