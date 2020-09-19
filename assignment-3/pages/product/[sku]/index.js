@@ -112,7 +112,7 @@ function ProductId(props) {
   const galeri = data.products.items[0].media_gallery;
   //console.log(item); 
   //console.log(galeri);
-  const qty = createState('');
+  const qty = createState([]);
   
   return (
     <>
