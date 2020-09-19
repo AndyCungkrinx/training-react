@@ -182,7 +182,6 @@ function ProductId(props) {
                       label="Quantity"
                       type="number"
                       defaultValue='1'
-                      value={qty}
                       onChange={handleChange}
                       InputLabelProps={{
                         shrink: true,
