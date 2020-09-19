@@ -11,8 +11,8 @@ import RatingReview from './RatingReview';
 import ErrorAlert from '../../../components/error';
 
 const PRODUCT_LIST = gql`
-query ($ids: String!, $sku:String!) {
-  products(filter:{category_id:{eq: $ids}, sku:{eq:$sku}}) {
+query ( $sku:String!) {
+  products(filter:{ sku:{eq:$sku}}) {
     items {
       id	
       name
@@ -74,13 +74,12 @@ function a11yProps(index) {
   };
 }
 
-function PanelBottom({item_id, sku}) {
+function PanelBottom({ sku}) {
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
   const response = useQuery(PRODUCT_LIST, {
     variables: {
-      ids: item_id,
       sku: sku,
     },
   });
