@@ -23,7 +23,7 @@ query Category($ids: String!) {
     product_count
     image_path
     description
-    products (pageSize: 50) {
+    products (pageSize: 20) {
       total_count
       items {
         id

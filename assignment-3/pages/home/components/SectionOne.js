@@ -13,7 +13,7 @@ query CategoryTree{
       id
       level
       name
-        products (pageSize: 20) {
+        products (pageSize: 10) {
         total_count
         items {
           name
