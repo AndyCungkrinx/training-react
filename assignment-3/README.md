@@ -5,10 +5,12 @@ http://localhost:3003
 https://assignment3.andycungkrinx.xyz/
 
 ## How to Install
+Only work in node 14.x
 ```sh
 git clone https://github.com/AndyCungkrinx/training-react.git
-cd assignment-3
-npm install
+cd training-react/assignment-3
+npm install -f
+npm i fsevents@latest -f --save-optional
 ```
 
 ## How to Run
