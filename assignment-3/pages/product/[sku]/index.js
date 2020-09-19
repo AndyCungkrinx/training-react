@@ -122,10 +122,9 @@ function ProductId(props) {
   const galeri = data.products.items[0].media_gallery;
   //console.log(item); 
   //console.log(galeri);
-  const handleClick = (event) => {
+  const handleSave = (event) => {
     setQty(document.getElementById("qty").value);
   };
-  const [qty, setQty] =useState(1);
   
   return (
     <>
