@@ -1,4 +1,4 @@
-import React, {createState} from 'react';
+import React, {useState} from 'react';
 import { useRouter } from "next/router";
 import { useQuery, gql } from "@apollo/client";
 import { withApollo} from "../../../lib/apollo";
@@ -112,7 +112,17 @@ function ProductId(props) {
   const galeri = data.products.items[0].media_gallery;
   //console.log(item); 
   //console.log(galeri);
-  const qty = createState([]);
+  const qty = useState(0);
+  // const handleChange = (qty) => {
+  //   setQty(document.getElementById("qty").value);
+  // };
+  constructor(props) {
+    super(props);
+    this.state = {qty: '' };
+  }
+  const handleChange = (event) => {
+    this.setState({qty: event.target.value});
+  }
   
   return (
     <>
@@ -174,11 +184,10 @@ function ProductId(props) {
                     <TextField
                       id="qty"
                       name="qty"
-                      state={qty}
                       label="Quantity"
                       type="number"
-                      defaultValue={state.value}
-                      onChange={e => state.set(e.target.value)}
+                      defaultValue={this.state.qty}
+                      onChange={this.handleChange}
                       InputLabelProps={{
                         shrink: true,
                       }}
@@ -192,7 +201,7 @@ function ProductId(props) {
                       cartCurrency={it.price_range.maximum_price.final_price.currency}
                       cartPrice={it.price_range.maximum_price.final_price.value}
                       cartImage={it.small_image.url}
-                      cartQty= {qty}
+                      cartQty= {this.state.qty}
                       />
                     </div>
                   </CardContent>
