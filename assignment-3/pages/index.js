@@ -9,7 +9,7 @@ export default function Index() {
   return (
     <Container style={{maxWidth:'lg'}}>
       <Box my={4}>
-      <div style={{height:33}}></div>
+      <div style={{height:30}}></div>
         <Homepage/>
         <div style={{height:200}}></div>
         <Typography variant="body2" color="textSecondary" align="center">
