@@ -94,6 +94,12 @@ const useStyles = makeStyles((theme) => ({
 function ProductId(props) {
   const classes = useStyles();
   const router = useRouter();
+  const [qty, setQty] = useState(0);
+
+  const handleChange = (event) => {
+    setQty(event.target.value);
+  };
+  
   const mysku = router.query.sku;
   const response = useQuery(PRODUCT_LIST, {
     variables: {
@@ -112,11 +118,6 @@ function ProductId(props) {
   const galeri = data.products.items[0].media_gallery;
   //console.log(item); 
   //console.log(galeri);
-  const [qty, setQty] = useState(1);
-  const handleChange = (event) => {
-    setQty(event.target.value);
-  };
-  
   return (
     <>
     <Navigasi />
