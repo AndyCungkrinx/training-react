@@ -94,8 +94,9 @@ const useStyles = makeStyles((theme) => ({
 function ProductId(props) {
   const classes = useStyles();
   const router = useRouter();
-  const [qty, setQty] = useState(0);
 
+  //Handling Qty on change
+  const [qty, setQty] = useState(1);
   const handleChange = (event) => {
     setQty(event.target.value);
   };
