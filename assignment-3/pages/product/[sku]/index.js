@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {createState} from 'react';
 import { useRouter } from "next/router";
 import { useQuery, gql } from "@apollo/client";
 import { withApollo} from "../../../lib/apollo";
@@ -13,8 +13,6 @@ import GrainIcon from '@material-ui/icons/Grain';
 import PanelBottom from '../components/TabsPanel';
 import ErrorAlert from '../../../components/error';
 import AddCart from '../addcart';
-import { cache } from '../../../lib/apollo/client';
-import { cartItemsVar } from '../../../apollo/resolver';
 
 const PRODUCT_LIST = gql`
 query ( $sku:String!) {
@@ -51,14 +49,6 @@ query ( $sku:String!) {
   }
 }
 `;
-
-export const GET_CART_ITEMS = gql`
-  query GetCartItems {
-    cartItems @client
-  }
-`;
-
-const cartItems = cartItemsVar();
 
 const responsive = {
   superLargeDesktop: {
@@ -122,11 +112,7 @@ function ProductId(props) {
   const galeri = data.products.items[0].media_gallery;
   //console.log(item); 
   //console.log(galeri);
-  const [qty, setQty] = useState(0);
-  const handleChange = (qty) => {
-    setQty(document.getElementById(
-      "qty").value);
-  };
+  const qty = createState('');
   
   return (
     <>
@@ -188,10 +174,11 @@ function ProductId(props) {
                     <TextField
                       id="qty"
                       name="qty"
+                      state={qty}
                       label="Quantity"
                       type="number"
-                      defaultValue='1'
-                      onChange={() => handleChange()}
+                      defaultValue={state.value}
+                      onChange={e => state.set(e.target.value)}
                       InputLabelProps={{
                         shrink: true,
                       }}
