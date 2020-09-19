@@ -13,6 +13,8 @@ import GrainIcon from '@material-ui/icons/Grain';
 import PanelBottom from '../components/TabsPanel';
 import ErrorAlert from '../../../components/error';
 import AddCart from '../addcart';
+import { cache } from "../../../lib/client";
+import { cartItemsVar } from "../../../apollo/resolver";
 
 const PRODUCT_LIST = gql`
 query ( $sku:String!) {
@@ -50,7 +52,22 @@ query ( $sku:String!) {
 }
 `;
 
+export const GET_CART_ITEMS = gql`
+  query GetCartItems {
+    cartItems @client
+  }
+`;
+const ReadState = () => {
 
+  const { cart } = useQuery(GET_CART_ITEMS);
+  console.log(cart)
+  
+  return (
+    <p>read state</p>
+  );
+};
+
+const cartItems = cartItemsVar();
 
 const responsive = {
   superLargeDesktop: {
@@ -117,7 +134,12 @@ function ProductId(props) {
   const handleChange = (event) => {
     setQty(document.getElementById("qty").value);
   };
-  const [qty, setQty] = useState([]);
+  if (qty===0){
+    const [qty, setQty] = useState([]);
+  }
+  else{
+    cartItemsVar([...cartItems, ...item]);
+  }
   
   return (
     <>
