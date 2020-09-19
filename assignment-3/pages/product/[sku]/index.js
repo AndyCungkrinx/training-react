@@ -114,6 +114,10 @@ function ProductId(props) {
   const galeri = data.products.items[0].media_gallery;
   //console.log(item); 
   //console.log(galeri);
+  const [qty, setQty] = useState(1);
+  const handleChange = (event) => {
+    setQty(document.getElementById("qty").value);
+  };
   return (
     <>
     <Navigasi />
@@ -158,10 +162,6 @@ function ProductId(props) {
           <Grid item xs={12} sm={6}>
             <div style={{paddingLeft:20}}>
               {item.map((it, idx) => {
-                const [qty, setQty] = useState(1);
-                const handleChange = (event) => {
-                  setQty(document.getElementById("qty").value);
-                };
                 return (
                 <div key={idx}>
                   <CardContent style={{textAlign: 'left',}}>
