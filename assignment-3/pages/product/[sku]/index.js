@@ -14,7 +14,7 @@ import PanelBottom from '../components/TabsPanel';
 import ErrorAlert from '../../../components/error';
 import AddCart from '../addcart';
 import { cache } from "../../../../lib/client";
-import { cartItemsVar } from "../../../../apollo/resolver";
+import { cartItemsVar } from "../../../apollo/resolver";
 
 const PRODUCT_LIST = gql`
 query ( $sku:String!) {
