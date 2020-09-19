@@ -7,9 +7,9 @@ export default function Homepage() {
     return(
         <>
             <Banner />
-            <div style={{height:100}}></div>
+            <div style={{height:200}}></div>
             <SectionOne />
-            <div style={{height:100}}></div>
+            <div style={{height:200}}></div>
             <SectionTwo />
         </>
     )
