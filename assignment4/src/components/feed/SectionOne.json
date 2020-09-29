@@ -1,0 +1,774 @@
+{
+  "categoryList": [
+    {
+      "id": 12,
+      "level": 3,
+      "name": "Tops",
+      "children": [
+        {
+          "id": 14,
+          "name": "Jackets",
+          "url_key": "jackets-men",
+          "url_path": "men/tops-men/jackets-men",
+          "display_mode": null
+        },
+        {
+          "id": 15,
+          "name": "Hoodies & Sweatshirts",
+          "url_key": "hoodies-and-sweatshirts-men",
+          "url_path": "men/tops-men/hoodies-and-sweatshirts-men",
+          "display_mode": null
+        },
+        {
+          "id": 16,
+          "name": "Tees",
+          "url_key": "tees-men",
+          "url_path": "men/tops-men/tees-men",
+          "display_mode": null
+        },
+        {
+          "id": 17,
+          "name": "Tanks",
+          "url_key": "tanks-men",
+          "url_path": "men/tops-men/tanks-men",
+          "display_mode": null
+        }
+      ],
+      "products": {
+        "total_count": 50,
+        "items": [
+          {
+            "name": "Sample Product with 1 configurable",
+            "sku": "Sample Product with 1 configurable",
+            "sale": null,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/static/version1600943233/graphql/_view/en_US/Magento_Catalog/images/product/placeholder/small_image.jpg",
+              "label": "Sample Product with 1 configurable"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 123,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Test Bundle Product",
+            "sku": "test-bundle",
+            "sale": null,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/static/version1600943233/graphql/_view/en_US/Magento_Catalog/images/product/placeholder/small_image.jpg",
+              "label": "Test Bundle Product"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 7700,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Cassius Sparring Tank",
+            "sku": "MT12",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/m/t/mt12-blue_main_2.jpg",
+              "label": "Cassius Sparring Tank"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 18,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Atlas Fitness Tank",
+            "sku": "MT11",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/m/t/mt11-blue_main_2.jpg",
+              "label": "Atlas Fitness Tank"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 18,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Tiberius Gym Tank",
+            "sku": "MT10",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/m/t/mt10-yellow_main_2.jpg",
+              "label": "Tiberius Gym Tank"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 18,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Sinbad Fitness Tank",
+            "sku": "MT09",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/m/t/mt09-blue_main_2.jpg",
+              "label": "Sinbad Fitness Tank"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 29,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Sparta Gym Tank",
+            "sku": "MT08",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/m/t/mt08-green_main_2.jpg",
+              "label": "Sparta Gym Tank"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 29,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Argus All-Weather Tank",
+            "sku": "MT07",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/m/t/mt07-gray_main_2.jpg",
+              "label": "Argus All-Weather Tank"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 22,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Vulcan Weightlifting Tank",
+            "sku": "MT06",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/m/t/mt06-black_main_2.jpg",
+              "label": "Vulcan Weightlifting Tank"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 28,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Rocco Gym Tank",
+            "sku": "MT05",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/m/t/mt05-blue_main_2.jpg",
+              "label": "Rocco Gym Tank"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 24,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Helios Endurance Tank",
+            "sku": "MT04",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/m/t/mt04-blue_main_2.jpg",
+              "label": "Helios Endurance Tank"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 32,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Primo Endurance Tank",
+            "sku": "MT03",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/m/t/mt03-red_main_2.jpg",
+              "label": "Primo Endurance Tank"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 29,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Tristan Endurance Tank",
+            "sku": "MT02",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/m/t/mt02-white_main_4.jpg",
+              "label": "Tristan Endurance Tank"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 29,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Erikssen CoolTech&trade; Fitness Tank",
+            "sku": "MT01",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/m/t/mt01-red_main_2.jpg",
+              "label": "Erikssen CoolTech&trade; Fitness Tank"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 29,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Strike Endurance Tee",
+            "sku": "MS08",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/m/s/ms08-black_main_2.jpg",
+              "label": "Strike Endurance Tee"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 39,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Deion Long-Sleeve EverCool&trade; Tee",
+            "sku": "MS07",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/m/s/ms07-green_main_2.jpg",
+              "label": "Deion Long-Sleeve EverCool&trade; Tee"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 39,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Logan  HeatTec&reg; Tee",
+            "sku": "MS10",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/m/s/ms10-blue_main_2.jpg",
+              "label": "Logan  HeatTec&reg; Tee"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 24,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Ryker LumaTech&trade; Tee (V-neck)",
+            "sku": "MS02",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/m/s/ms02-gray_main_2.jpg",
+              "label": "Ryker LumaTech&trade; Tee (V-neck)"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 28,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Aero Daily Fitness Tee",
+            "sku": "MS01",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/m/s/ms01-blue_main_2.jpg",
+              "label": "Aero Daily Fitness Tee"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 24,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Zoltan Gym Tee",
+            "sku": "MS06",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/m/s/ms06-blue_main_2.jpg",
+              "label": "Zoltan Gym Tee"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 29,
+                  "currency": "USD"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "level": 3,
+      "name": "Tops",
+      "children": [
+        {
+          "id": 23,
+          "name": "Jackets",
+          "url_key": "jackets-women",
+          "url_path": "women/tops-women/jackets-women",
+          "display_mode": null
+        },
+        {
+          "id": 24,
+          "name": "Hoodies & Sweatshirts",
+          "url_key": "hoodies-and-sweatshirts-women",
+          "url_path": "women/tops-women/hoodies-and-sweatshirts-women",
+          "display_mode": null
+        },
+        {
+          "id": 25,
+          "name": "Tees",
+          "url_key": "tees-women",
+          "url_path": "women/tops-women/tees-women",
+          "display_mode": null
+        },
+        {
+          "id": 26,
+          "name": "Bras & Tanks",
+          "url_key": "tanks-women",
+          "url_path": "women/tops-women/tanks-women",
+          "display_mode": null
+        }
+      ],
+      "products": {
+        "total_count": 50,
+        "items": [
+          {
+            "name": "Breathe-Easy Tank",
+            "sku": "WT09",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/t/wt09-white_main_2.jpg",
+              "label": "Breathe-Easy Tank"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 34,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Antonia Racer Tank",
+            "sku": "WT08",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/t/wt08-black_main_2.jpg",
+              "label": "Antonia Racer Tank"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 34,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Maya Tunic",
+            "sku": "WT07",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/t/wt07-green_main_2.jpg",
+              "label": "Maya Tunic"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 29,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Chloe Compete Tank",
+            "sku": "WT06",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/t/wt06-blue_main_2.jpg",
+              "label": "Chloe Compete Tank"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 39,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Leah Yoga Top",
+            "sku": "WT05",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/t/wt05-purple_main_4.jpg",
+              "label": "Leah Yoga Top"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 39,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Nona Fitness Tank",
+            "sku": "WT04",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/t/wt04-blue_main_2.jpg",
+              "label": "Nona Fitness Tank"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 39,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Nora Practice Tank",
+            "sku": "WT03",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/t/wt03-red_main_2.jpg",
+              "label": "Nora Practice Tank"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 39,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Zoe Tank",
+            "sku": "WT02",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/t/wt02-orange_main_2.jpg",
+              "label": "Zoe Tank"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 29,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Bella Tank",
+            "sku": "WT01",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/t/wt01-blue_main_2.jpg",
+              "label": "Bella Tank"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 29,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Lucia Cross-Fit Bra ",
+            "sku": "WB05",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/b/wb05-black_main_2.jpg",
+              "label": "Lucia Cross-Fit Bra "
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 39,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Prima Compete Bra Top",
+            "sku": "WB04",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/b/wb04-blue_main_4.jpg",
+              "label": "Prima Compete Bra Top"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 24,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Celeste Sports Bra",
+            "sku": "WB03",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/b/wb03-green_main_2.jpg",
+              "label": "Celeste Sports Bra"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 39,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Erica Evercool Sports Bra",
+            "sku": "WB02",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/b/wb02-blue_main_2.jpg",
+              "label": "Erica Evercool Sports Bra"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 39,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Electra Bra Top",
+            "sku": "WB01",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/b/wb01-gray_main_2.jpg",
+              "label": "Electra Bra Top"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 39,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Desiree Fitness Tee",
+            "sku": "WS05",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/ws05-black_main_2.jpg",
+              "label": "Desiree Fitness Tee"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 24,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Gwyn Endurance Tee",
+            "sku": "WS01",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/ws01-black_main_2.jpg",
+              "label": "Gwyn Endurance Tee"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 24,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Radiant Tee",
+            "sku": "WS12",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/ws12-orange_main_4.jpg",
+              "label": "Radiant Tee"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 22,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Diva Gym Tee",
+            "sku": "WS11",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/ws11-yellow_main_2.jpg",
+              "label": "Diva Gym Tee"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 32,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Karissa V-Neck Tee",
+            "sku": "WS10",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/ws10-red_main_2.jpg",
+              "label": "Karissa V-Neck Tee"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 32,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Tiffany Fitness Tee",
+            "sku": "WS09",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/ws09-blue_main_2.jpg",
+              "label": "Tiffany Fitness Tee"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 28,
+                  "currency": "USD"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "level": 3,
+      "name": "Tops Men",
+      "children": [],
+      "products": {
+        "total_count": 0,
+        "items": []
+      }
+    }
+  ]
+}

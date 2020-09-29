@@ -1,0 +1,27 @@
+{
+  "getHomepageSlider": {
+    "slider_id": 14,
+    "images": [
+      {
+        "image_id": 86,
+        "mobile_image_url": "https://i.pinimg.com/originals/a0/04/7c/a0047c6fbe7355ce655176da3b4cba5e.jpg"
+      },
+      {
+        "image_id": 138,
+        "mobile_image_url": "https://www.africafashionguide.com/wp-content/uploads/2014/11/banner-img1-1024x437.png"
+      },
+      {
+        "image_id": 139,
+        "mobile_image_url": "https://dkemhji6i1k0x.cloudfront.net/000_clients/84990/page/84990F5y57DsP.jpg"
+      },
+      {
+        "image_id": 41,
+        "mobile_image_url": "https://swiftpwa-be.testingnow.me/media/weltpixel/owlcarouselslider/images/h/7/h7_h2_1_1.jpg"
+      },
+      {
+        "image_id": 42,
+        "mobile_image_url": "https://swiftpwa-be.testingnow.me/media/weltpixel/owlcarouselslider/images/h/7/h7_h1_1_1.jpg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,489 @@
+{
+  "categoryList": [
+    {
+      "id": 30,
+      "level": 3,
+      "name": "Women Sale",
+      "children": [],
+      "products": {
+        "total_count": 14,
+        "page_info": {
+          "page_size": 20,
+          "total_pages": 1
+        },
+        "items": [
+          {
+            "name": "Bess Yoga Short",
+            "sku": "WSH05",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh05-blue_main_2.jpg",
+              "label": "Bess Yoga Short"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 28,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Maxima Drawstring Short",
+            "sku": "WSH02",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh02-gray_main_2.jpg",
+              "label": "Maxima Drawstring Short"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 28,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Breathe-Easy Tank",
+            "sku": "WT09",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/t/wt09-white_main_2.jpg",
+              "label": "Breathe-Easy Tank"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 34,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Antonia Racer Tank",
+            "sku": "WT08",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/t/wt08-black_main_2.jpg",
+              "label": "Antonia Racer Tank"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 34,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Electra Bra Top",
+            "sku": "WB01",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/b/wb01-gray_main_2.jpg",
+              "label": "Electra Bra Top"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 39,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Diva Gym Tee",
+            "sku": "WS11",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/ws11-yellow_main_2.jpg",
+              "label": "Diva Gym Tee"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 32,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Tiffany Fitness Tee",
+            "sku": "WS09",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/ws09-blue_main_2.jpg",
+              "label": "Tiffany Fitness Tee"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 28,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Minerva LumaTech&trade; V-Tee",
+            "sku": "WS08",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/ws08-blue_main_2.jpg",
+              "label": "Minerva LumaTech&trade; V-Tee"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 32,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Olivia 1/4 Zip Light Jacket",
+            "sku": "WJ12",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/j/wj12-blue_main_2.jpg",
+              "label": "Olivia 1/4 Zip Light Jacket"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 77,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Juno Jacket",
+            "sku": "WJ06",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/j/wj06-purple_main_2.jpg",
+              "label": "Juno Jacket"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 77,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Adrienne Trek Jacket",
+            "sku": "WJ08",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/j/wj08-gray_main_2.jpg",
+              "label": "Adrienne Trek Jacket"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 57,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Josie Yoga Jacket",
+            "sku": "WJ02",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/j/wj02-gray_main_2.jpg",
+              "label": "Josie Yoga Jacket"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 56.25,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Cassia Funnel Sweatshirt",
+            "sku": "WH08",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/h/wh08-white_main_2.jpg",
+              "label": "Cassia Funnel Sweatshirt"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 48,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Hera Pullover Hoodie",
+            "sku": "WH02",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/h/wh02-blue_main_4.jpg",
+              "label": "Hera Pullover Hoodie"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 48,
+                  "currency": "USD"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "level": 3,
+      "name": "Men Sale",
+      "children": [],
+      "products": {
+        "total_count": 3,
+        "page_info": {
+          "page_size": 20,
+          "total_pages": 1
+        },
+        "items": [
+          {
+            "name": "Pierce Gym Short",
+            "sku": "MSH12",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/m/s/msh12-red_main_2.jpg",
+              "label": "Pierce Gym Short"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 27,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Orestes Fitness Short",
+            "sku": "MSH08",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/m/s/msh08-black_main_2.jpg",
+              "label": "Orestes Fitness Short"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 35,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Rapha  Sports Short",
+            "sku": "MSH07",
+            "sale": 1,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/m/s/msh07-black_main_2.jpg",
+              "label": "Rapha  Sports Short"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 35,
+                  "currency": "USD"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "level": 2,
+      "name": "Sale",
+      "children": [],
+      "products": {
+        "total_count": 1,
+        "page_info": {
+          "page_size": 20,
+          "total_pages": 1
+        },
+        "items": [
+          {
+            "name": "yuni test simple product",
+            "sku": "yuni123",
+            "sale": null,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/b/e/beras_thai.jpg",
+              "label": "yuni test simple product"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 7,
+                  "currency": "USD"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 46,
+      "level": 4,
+      "name": "Ramadhan Sale",
+      "children": [],
+      "products": {
+        "total_count": 7,
+        "page_info": {
+          "page_size": 20,
+          "total_pages": 1
+        },
+        "items": [
+          {
+            "name": "Fiona Fitness Short",
+            "sku": "WSH01",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh01-black_main_2.jpg",
+              "label": "Fiona Fitness Short"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 26,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Portia Capri",
+            "sku": "WP13",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/p/wp13-orange_main_2.jpg",
+              "label": "Portia Capri"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 39.2,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Deirdre Relaxed-Fit Capri",
+            "sku": "WP12",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/p/wp12-gray_main_2.jpg",
+              "label": "Deirdre Relaxed-Fit Capri"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 50.4,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Sylvia Capri",
+            "sku": "WP11",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/p/wp11-green_main_2.jpg",
+              "label": "Sylvia Capri"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 33.6,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Daria Bikram Pant",
+            "sku": "WP10",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/p/wp10-gray_main_2.jpg",
+              "label": "Daria Bikram Pant"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 40.8,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Carina Basic Capri",
+            "sku": "WP09",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/p/wp09-black_main_2.jpg",
+              "label": "Carina Basic Capri"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 40.8,
+                  "currency": "USD"
+                }
+              }
+            }
+          },
+          {
+            "name": "Bardot Capri",
+            "sku": "WP08",
+            "sale": 0,
+            "small_image": {
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/p/wp08-black_main_2.jpg",
+              "label": "Bardot Capri"
+            },
+            "price_range": {
+              "maximum_price": {
+                "final_price": {
+                  "value": 38.4,
+                  "currency": "USD"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
