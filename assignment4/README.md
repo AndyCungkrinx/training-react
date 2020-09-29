@@ -1,21 +1,17 @@
-## Localhost
-http://localhost:3003
-
-## Live Preview
-https://assignment3.andycungkrinx.xyz/
-
 ## How to Install
 Only work in node 14.x
 ```sh
 git clone https://github.com/AndyCungkrinx/training-react.git
-cd training-react/assignment-3
+cd training-react/assignment-4
 npm install -f
-npm i fsevents@latest -f --save-optional
-npx react-codemod rename-unsafe-lifecycles -f
+npm i fsevents@latest -f 
+npx react-native link react-native-vector-icons
+
+
 ```
 
 ## How to Run
 
 ```sh
-npm run dev
+npx react-native run-android
 ```
