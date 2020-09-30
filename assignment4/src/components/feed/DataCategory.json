@@ -1,0 +1,475 @@
+{
+    "categoryList": [
+      {
+        "id": 2,
+        "level": 1,
+        "name": "Default Category",
+        "children": [
+          {
+            "id": 38,
+            "name": "What's New"
+          },
+          {
+            "id": 20,
+            "name": "Women"
+          },
+          {
+            "id": 11,
+            "name": "Men"
+          },
+          {
+            "id": 3,
+            "name": "Gear"
+          },
+          {
+            "id": 9,
+            "name": "Training"
+          },
+          {
+            "id": 37,
+            "name": "Sale"
+          },
+          {
+            "id": 41,
+            "name": "Test"
+          },
+          {
+            "id": 44,
+            "name": "Homepage"
+          },
+          {
+            "id": 51,
+            "name": "Brands"
+          },
+          {
+            "id": 53,
+            "name": "promo"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "level": 2,
+        "name": "Gear",
+        "children": [
+          {
+            "id": 4,
+            "name": "Bags"
+          },
+          {
+            "id": 5,
+            "name": "Fitness Equipment"
+          },
+          {
+            "id": 6,
+            "name": "Watches"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "level": 3,
+        "name": "Bags",
+        "children": []
+      },
+      {
+        "id": 5,
+        "level": 3,
+        "name": "Fitness Equipment",
+        "children": []
+      },
+      {
+        "id": 6,
+        "level": 3,
+        "name": "Watches",
+        "children": []
+      },
+      {
+        "id": 8,
+        "level": 3,
+        "name": "New Luma Yoga Collection",
+        "children": []
+      },
+      {
+        "id": 9,
+        "level": 2,
+        "name": "Training",
+        "children": [
+          {
+            "id": 10,
+            "name": "Video Download"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "level": 3,
+        "name": "Video Download",
+        "children": []
+      },
+      {
+        "id": 11,
+        "level": 2,
+        "name": "Men",
+        "children": [
+          {
+            "id": 12,
+            "name": "Tops"
+          },
+          {
+            "id": 13,
+            "name": "Bottoms"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "level": 3,
+        "name": "Tops",
+        "children": [
+          {
+            "id": 14,
+            "name": "Jackets"
+          },
+          {
+            "id": 15,
+            "name": "Hoodies & Sweatshirts"
+          },
+          {
+            "id": 16,
+            "name": "Tees"
+          },
+          {
+            "id": 17,
+            "name": "Tanks"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "level": 3,
+        "name": "Bottoms",
+        "children": [
+          {
+            "id": 18,
+            "name": "Pants"
+          },
+          {
+            "id": 19,
+            "name": "Shorts"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "level": 4,
+        "name": "Jackets",
+        "children": []
+      },
+      {
+        "id": 15,
+        "level": 4,
+        "name": "Hoodies & Sweatshirts",
+        "children": []
+      },
+      {
+        "id": 16,
+        "level": 4,
+        "name": "Tees",
+        "children": []
+      },
+      {
+        "id": 17,
+        "level": 4,
+        "name": "Tanks",
+        "children": []
+      },
+      {
+        "id": 18,
+        "level": 4,
+        "name": "Pants",
+        "children": []
+      },
+      {
+        "id": 19,
+        "level": 4,
+        "name": "Shorts",
+        "children": []
+      },
+      {
+        "id": 20,
+        "level": 2,
+        "name": "Women",
+        "children": [
+          {
+            "id": 21,
+            "name": "Tops"
+          },
+          {
+            "id": 22,
+            "name": "Bottoms"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "level": 3,
+        "name": "Tops",
+        "children": [
+          {
+            "id": 23,
+            "name": "Jackets"
+          },
+          {
+            "id": 24,
+            "name": "Hoodies & Sweatshirts"
+          },
+          {
+            "id": 25,
+            "name": "Tees"
+          },
+          {
+            "id": 26,
+            "name": "Bras & Tanks"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "level": 3,
+        "name": "Bottoms",
+        "children": [
+          {
+            "id": 27,
+            "name": "Pants"
+          },
+          {
+            "id": 28,
+            "name": "Shorts"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "level": 4,
+        "name": "Jackets",
+        "children": [
+          {
+            "id": 54,
+            "name": "Jackets Sweater"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "level": 4,
+        "name": "Hoodies & Sweatshirts",
+        "children": []
+      },
+      {
+        "id": 25,
+        "level": 4,
+        "name": "Tees",
+        "children": []
+      },
+      {
+        "id": 26,
+        "level": 4,
+        "name": "Bras & Tanks",
+        "children": []
+      },
+      {
+        "id": 27,
+        "level": 4,
+        "name": "Pants",
+        "children": []
+      },
+      {
+        "id": 28,
+        "level": 4,
+        "name": "Shorts",
+        "children": []
+      },
+      {
+        "id": 30,
+        "level": 3,
+        "name": "Women Sale",
+        "children": []
+      },
+      {
+        "id": 31,
+        "level": 3,
+        "name": "Men Sale",
+        "children": []
+      },
+      {
+        "id": 32,
+        "level": 3,
+        "name": "Pants",
+        "children": []
+      },
+      {
+        "id": 33,
+        "level": 3,
+        "name": "Tees",
+        "children": []
+      },
+      {
+        "id": 34,
+        "level": 3,
+        "name": "Erin Recommends",
+        "children": []
+      },
+      {
+        "id": 35,
+        "level": 3,
+        "name": "Performance Fabrics",
+        "children": []
+      },
+      {
+        "id": 36,
+        "level": 3,
+        "name": "Eco Friendly",
+        "children": []
+      },
+      {
+        "id": 37,
+        "level": 2,
+        "name": "Sale",
+        "children": []
+      },
+      {
+        "id": 38,
+        "level": 2,
+        "name": "What's New",
+        "children": []
+      },
+      {
+        "id": 39,
+        "level": 3,
+        "name": "Performance Sportswear New",
+        "children": []
+      },
+      {
+        "id": 40,
+        "level": 3,
+        "name": "Eco Collection New",
+        "children": []
+      },
+      {
+        "id": 41,
+        "level": 2,
+        "name": "Test",
+        "children": [
+          {
+            "id": 42,
+            "name": "Tops Men"
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "level": 3,
+        "name": "Tops Men",
+        "children": []
+      },
+      {
+        "id": 44,
+        "level": 2,
+        "name": "Homepage",
+        "children": [
+          {
+            "id": 47,
+            "name": "Products"
+          },
+          {
+            "id": 48,
+            "name": "Categories"
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "level": 4,
+        "name": "Best Sellers",
+        "children": []
+      },
+      {
+        "id": 46,
+        "level": 4,
+        "name": "Ramadhan Sale",
+        "children": []
+      },
+      {
+        "id": 47,
+        "level": 3,
+        "name": "Products",
+        "children": [
+          {
+            "id": 45,
+            "name": "Best Sellers"
+          },
+          {
+            "id": 46,
+            "name": "Ramadhan Sale"
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "level": 3,
+        "name": "Categories",
+        "children": [
+          {
+            "id": 49,
+            "name": "#dirumahaja"
+          },
+          {
+            "id": 50,
+            "name": "Sporty Style test"
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "level": 4,
+        "name": "#dirumahaja",
+        "children": []
+      },
+      {
+        "id": 50,
+        "level": 4,
+        "name": "Sporty Style test",
+        "children": []
+      },
+      {
+        "id": 51,
+        "level": 2,
+        "name": "Brands",
+        "children": [
+          {
+            "id": 52,
+            "name": "Nike"
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "level": 3,
+        "name": "Nike",
+        "children": []
+      },
+      {
+        "id": 53,
+        "level": 2,
+        "name": "promo",
+        "children": []
+      },
+      {
+        "id": 54,
+        "level": 5,
+        "name": "Jackets Sweater",
+        "children": []
+      }
+    ]
+  }

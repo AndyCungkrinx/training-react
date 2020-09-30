@@ -10,7 +10,7 @@ const Stack = createStackNavigator();
 const CategoryStack = () => {
   return (
     <PaperProvider>
-        <Stack.Navigator>
+        <Stack.Navigator initialRouteName="Category">
             <Stack.Screen 
             name="Category" 
             component={Category} 
@@ -18,8 +18,15 @@ const CategoryStack = () => {
               headerShown: false,
               }}
             />
+            <Stack.Screen name="ProductCategory" component={ProductCategory}
+            options={{
+              tabBarVisible: false,
+              headerShown: false,
+            }}
+             />
         </Stack.Navigator>
     </PaperProvider>
+
   )
 }
 

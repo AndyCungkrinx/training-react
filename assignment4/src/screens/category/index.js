@@ -1,25 +1,25 @@
 import React from 'react';
 import { Appbar} from 'react-native-paper';
-import { FlatList, View } from 'react-native';
+import { ScrollView, View } from 'react-native';
 import { List} from 'react-native-paper';
-import data from '../../components/feed/CategoryList';
+import data from '../../components/feed/DataCategory';
 
 const Category = ({ navigation }) => {
     const category = data.categoryList;
     //console.log(category);
-    const renderItem = () => {
+    const ListCategory = () => {
         return(
         <>
         {category.map((val) => {
             return (
             <List.AccordionGroup key={val.id}>
                 <List.Accordion title={val.name} id={val.id}>
-                {val.children.map((children,index) => (
-                <View key={children.id} style={{ flex: 1 }}>
+                {val.children.map((child,index) => (
+                <View key={child.id} style={{ flex: 1 }}>
                     <List.Item 
-                    title={children.name} 
+                    title={child.name} 
                     left={props => <List.Icon {...props} icon="chart-bubble" key={index+1} />}
-                    onPress={() => navigation.navigate('ProductCategory', { id: `${val.id}` })} 
+                    onPress={() => navigation.navigate('ProductCategory', { category_id: `${val.id}`, child_id:  `${child.id}`})} 
                     />
                 </View>
                 ))}
@@ -31,16 +31,12 @@ const Category = ({ navigation }) => {
         );
     }
     return (
-    <>
-        <Appbar.Header>
-          <Appbar.Content title="Category" style={{alignItems:'center'}} />
-        </Appbar.Header>
-        <FlatList
-        data={category}
-        renderItem={renderItem}
-        keyExtractor={(children) => children.id.toString()}
-        />
-    </>
+        <ScrollView> 
+            <Appbar.Header style={{backgroundColor:'#ff7c2b',}}>
+                <Appbar.Content title="Category" style={{alignItems:'center'}} />
+            </Appbar.Header>
+            <ListCategory/>
+        </ScrollView> 
     );
 }
 

@@ -6,18 +6,31 @@ import CategoryStack from '../stack/category';
 import SideMenuStack from '../stack/menu';
 
 const Tab = createBottomTabNavigator();
-const MainNav = ({navigation}) => {
+
+const getTabBarVisibility = (route) => {
+  const routeName = route.state
+    ? route.state.routes[route.state.index].name
+    : '';
+
+  if (routeName === 'ProductCategory') {
+    return false;
+  }
+
+  return true;
+}
+
+const MainNav = () => {
   return (
       <Tab.Navigator 
       initialRouteName="Home"
       tabBarOptions={{
-        activeTintColor: '#e91e63',
+        activeTintColor: '#ffff',
+        inactiveTintColor: '#c9c9c9',
         tabStyle: {
           justifyContent: 'center',
           alignItems: 'center',
-          marginTop: 10,
-          marginBottom: 5,
-          width:30,
+          paddingVertical: 10,
+          backgroundColor: '#ff7c2b',
         },
       }}
       >
@@ -36,15 +49,15 @@ const MainNav = ({navigation}) => {
           name="Category"
           animationEnabled
           component={CategoryStack}
-          options={{
+          options={({ route }) => ({
+            tabBarVisible: getTabBarVisibility(route),
             tabBarLabel: 'Category',
             tabBarIcon: ({ color, size }) => (
               <MaterialCommunityIcons name="microsoft" color={color} size={size} />
             ),
-          }}
+          })}
         />
         <Tab.Screen
-          
           name="Menu"
           animationEnabled
           component={SideMenuStack}

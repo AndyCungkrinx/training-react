@@ -5,17 +5,17 @@ const SideMenu = ({navigation}) => {
     const [active, setActive] = React.useState('');
     return (
     <>
-        <Appbar.Header>
+        <Appbar.Header style={{backgroundColor:'#ff7c2b'}}>
             <Appbar.Content title="Menu" style={{alignItems:'center'}}/>
         </Appbar.Header>
         <Drawer.Section>
             <Drawer.Item
-            label="First Item"
+            label="First Menu"
             active={active === 'first'}
             onPress={() => setActive('first')}
             />
             <Drawer.Item
-            label="Second Item"
+            label="Second Menu"
             active={active === 'second'}
             onPress={() => setActive('second')}
             />
