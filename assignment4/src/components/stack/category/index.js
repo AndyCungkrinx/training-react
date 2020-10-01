@@ -3,6 +3,8 @@ import {createStackNavigator} from '@react-navigation/stack';
 import {Provider as PaperProvider} from 'react-native-paper';
 import Category from '../../../screens/category';
 import ProductCategory from '../../../screens/productcategory';
+import ProductDetail from '../../../screens/ProductDetail';
+import Cart from '../../../screens/cart';
 
 const Stack = createStackNavigator();
 
@@ -24,6 +26,18 @@ const CategoryStack = () => {
               headerShown: false,
             }}
              />
+            <Stack.Screen name="ProductDetail" component={ProductDetail}
+            options={{
+              tabBarVisible: false,
+              headerShown: false,
+            }}
+             />
+            <Stack.Screen name="Cart" component={Cart}
+            options={{
+              tabBarVisible: false,
+              headerShown: false,
+            }}
+            />
         </Stack.Navigator>
     </PaperProvider>
 

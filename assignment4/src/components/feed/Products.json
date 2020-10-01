@@ -1,0 +1,910 @@
+{
+    "products": {
+      "items": [
+        {
+          "id": 2109,
+          "name": "Test Bundle product check box",
+          "sku": "TB-1001-2020",
+          "sale": 0,
+          "description": {
+            "html": ""
+          },
+          "more_info": [
+            {
+              "label": "Activity",
+              "value": "Running"
+            },
+            {
+              "label": "Material",
+              "value": "Wool"
+            }
+          ],
+          "media_gallery": [
+            {
+              "label": "Test Bundle product check box",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh08-purple_main_2_1.jpg"
+            }
+          ],
+          "small_image": {
+            "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh08-purple_main_2_1.jpg",
+            "label": "Test Bundle product check box"
+          },
+          "price_range": {
+            "maximum_price": {
+              "final_price": {
+                "value": 73,
+                "currency": "IDR"
+              }
+            }
+          }
+        },
+        {
+          "id": 2099,
+          "name": "Lipstik Sample Complate",
+          "sku": "Lipstik Sample Complate",
+          "sale": null,
+          "description": {
+            "html": ""
+          },
+          "more_info": [],
+          "media_gallery": [],
+          "small_image": {
+            "url": "https://swiftpwa-be.testingnow.me/static/version1601455818/graphql/_view/en_US/Magento_Catalog/images/product/placeholder/small_image.jpg",
+            "label": "Lipstik Sample Complate"
+          },
+          "price_range": {
+            "maximum_price": {
+              "final_price": {
+                "value": 11,
+                "currency": "IDR"
+              }
+            }
+          }
+        },
+        {
+          "id": 2092,
+          "name": "Lipstik Sample Swatch Image",
+          "sku": "Lipstik Sample Swatch Image",
+          "sale": null,
+          "description": {
+            "html": ""
+          },
+          "more_info": [],
+          "media_gallery": [
+            {
+              "label": "Lipstik Sample Swatch Image",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/a/n/aneka-lipstik-cair-atau-lipcream-_190112133843-135_1.jpg"
+            },
+            {
+              "label": "Lipstik Sample Swatch Image",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/1/0/1080_f0bd64d5e-92c7-4a83-9a33-09af63f9af429f3dj_1.jpeg"
+            },
+            {
+              "label": "Lipstik Sample Swatch Image",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/l/i/lipstik-1_1.jpg"
+            }
+          ],
+          "small_image": {
+            "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/a/n/aneka-lipstik-cair-atau-lipcream-_190112133843-135_1.jpg",
+            "label": "Lipstik Sample Swatch Image"
+          },
+          "price_range": {
+            "maximum_price": {
+              "final_price": {
+                "value": 1000,
+                "currency": "IDR"
+              }
+            }
+          }
+        },
+        {
+          "id": 2087,
+          "name": "Sample Product with 1 configurable",
+          "sku": "Sample Product with 1 configurable",
+          "sale": null,
+          "description": {
+            "html": ""
+          },
+          "more_info": [],
+          "media_gallery": [],
+          "small_image": {
+            "url": "https://swiftpwa-be.testingnow.me/static/version1601455818/graphql/_view/en_US/Magento_Catalog/images/product/placeholder/small_image.jpg",
+            "label": "Sample Product with 1 configurable"
+          },
+          "price_range": {
+            "maximum_price": {
+              "final_price": {
+                "value": 123,
+                "currency": "IDR"
+              }
+            }
+          }
+        },
+        {
+          "id": 2070,
+          "name": "yuni test simple product",
+          "sku": "yuni123",
+          "sale": null,
+          "description": {
+            "html": "<p>This is simple product Yuni - swift pwa very long description</p>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sit amet consectetur adipiscing. Orci a scelerisque purus semper eget duis at. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec. Nunc consequat interdum varius sit amet mattis vulputate enim nulla. Aliquet lectus proin nibh nisl. Elit ut aliquam purus sit amet luctus venenatis lectus magna. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis. Elementum nisi quis eleifend quam adipiscing. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Faucibus purus in massa tempor nec feugiat nisl pretium. Vulputate enim nulla aliquet porttitor lacus luctus.</p>\r\n<p>Morbi enim nunc faucibus a pellentesque sit amet. Ac tortor dignissim convallis aenean et tortor. Enim lobortis scelerisque fermentum dui. Rutrum quisque non tellus orci ac. Aliquet bibendum enim facilisis gravida neque convallis a cras. Aliquet eget sit amet tellus cras. Amet cursus sit amet dictum sit. Quam nulla porttitor massa id neque aliquam. Purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus. Mauris a diam maecenas sed enim ut sem viverra. Tortor pretium viverra suspendisse potenti. Sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Enim sed faucibus turpis in eu mi. Ut venenatis tellus in metus vulputate eu scelerisque. Massa id neque aliquam vestibulum morbi blandit cursus.</p>\r\n<p><img src=\"https://swiftpwa-be.testingnow.me/media/wysiwyg/bakso.jpg\" alt=\"bakso simple product pwa\" /></p>\r\n<p>Sodales ut eu sem integer vitae. Amet consectetur adipiscing elit ut aliquam purus sit amet. Varius morbi enim nunc faucibus a pellentesque. Imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Massa enim nec dui nunc mattis enim ut tellus elementum. Sit amet tellus cras adipiscing enim eu turpis egestas. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Ligula ullamcorper malesuada proin libero nunc consequat interdum. Orci eu lobortis elementum nibh tellus molestie nunc non. Pharetra et ultrices neque ornare aenean euismod elementum nisi quis. Elementum pulvinar etiam non quam lacus suspendisse faucibus. Vestibulum rhoncus est pellentesque elit ullamcorper. Auctor augue mauris augue neque gravida in fermentum et. Quis hendrerit dolor magna eget est lorem ipsum. Maecenas pharetra convallis posuere morbi. Amet mauris commodo quis imperdiet massa tincidunt.</p>"
+          },
+          "more_info": [],
+          "media_gallery": [
+            {
+              "label": "yuni test simple product",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/b/e/beras_thai.jpg"
+            }
+          ],
+          "small_image": {
+            "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/b/e/beras_thai.jpg",
+            "label": "yuni test simple product"
+          },
+          "price_range": {
+            "maximum_price": {
+              "final_price": {
+                "value": 7,
+                "currency": "IDR"
+              }
+            }
+          }
+        },
+        {
+          "id": 2056,
+          "name": "Test Bundle Product",
+          "sku": "test-bundle",
+          "sale": null,
+          "description": {
+            "html": ""
+          },
+          "more_info": [],
+          "media_gallery": [],
+          "small_image": {
+            "url": "https://swiftpwa-be.testingnow.me/static/version1601455818/graphql/_view/en_US/Magento_Catalog/images/product/placeholder/small_image.jpg",
+            "label": "Test Bundle Product"
+          },
+          "price_range": {
+            "maximum_price": {
+              "final_price": {
+                "value": 7700,
+                "currency": "IDR"
+              }
+            }
+          }
+        },
+        {
+          "id": 2046,
+          "name": "Erika Running Short",
+          "sku": "WSH12",
+          "sale": 0,
+          "description": {
+            "html": "<p>A great short with a body-hugging design, the Erika Running Short is perfect for runners who prefer a fitted short rather than the traditional baggy variety.</p>\n<p>&bull; Seafoam pattern running shorts.<br />&bull; Elastic waistband.<br />&bull; Snug fit.<br />&bull; 4'' inseam.<br />&bull; 76% premium brushed Nylon / 24% Spandex.</p>"
+          },
+          "more_info": [
+            {
+              "label": "Style",
+              "value": "Basic, Snug"
+            },
+            {
+              "label": "Material",
+              "value": "Polyester, Spandex, Organic Cotton"
+            },
+            {
+              "label": "Pattern",
+              "value": "Graphic Print"
+            },
+            {
+              "label": "Climate",
+              "value": "Mild, Warm, Hot"
+            },
+            {
+              "label": "Brand",
+              "value": "Nike"
+            }
+          ],
+          "media_gallery": [
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh12-green_main_2.jpg"
+            },
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh12-green_alt1_2.jpg"
+            },
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh12-green_back_2.jpg"
+            }
+          ],
+          "small_image": {
+            "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh12-green_main_2.jpg",
+            "label": "Erika Running Short"
+          },
+          "price_range": {
+            "maximum_price": {
+              "final_price": {
+                "value": 45,
+                "currency": "IDR"
+              }
+            }
+          }
+        },
+        {
+          "id": 2030,
+          "name": "Ina Compression Short",
+          "sku": "WSH11",
+          "sale": 0,
+          "description": {
+            "html": "<p>One of Luma's most popular items, the Ina Compression Short has you covered with exceptional support and comfort, whether you're running the trail, riding a bike or ripping out reps. The ventilating fabric offers cool relief and prevents irritating chafing.</p>\r\n<p>&bull; Royal blue bike shorts.<br />&bull; Compression fit. <br />&bull; Moisture-wicking. <br />&bull; Anti-microbial. <br />&bull; Machine wash/dry.</p>"
+          },
+          "more_info": [
+            {
+              "label": "Style",
+              "value": "Base Layer, Compression, Snug"
+            },
+            {
+              "label": "Material",
+              "value": "LumaTech&trade;, Spandex"
+            },
+            {
+              "label": "Pattern",
+              "value": "Solid"
+            },
+            {
+              "label": "Climate",
+              "value": "All-Weather, Warm, Hot"
+            },
+            {
+              "label": "Brand",
+              "value": "Nike"
+            }
+          ],
+          "media_gallery": [
+            {
+              "label": "Ina Compression Short",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh11-blue_main_2.jpg"
+            },
+            {
+              "label": "Ina Compression Short",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh11-blue_back_2.jpg"
+            }
+          ],
+          "small_image": {
+            "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh11-blue_main_2.jpg",
+            "label": "Ina Compression Short"
+          },
+          "price_range": {
+            "maximum_price": {
+              "final_price": {
+                "value": 49,
+                "currency": "IDR"
+              }
+            }
+          }
+        },
+        {
+          "id": 2023,
+          "name": "Ana Running Short",
+          "sku": "WSH10",
+          "sale": 0,
+          "description": {
+            "html": "<p>Time to lace up your kicks and beat that personal best in the Ana Running Short. It's designed with breathable mesh side panels to help keep you cool while you master the miles.</p>\n<p>&bull; Black/pink two-layer shorts.<br />&bull; Low-rise elastic waistband.<br />&bull; Relaxed fit. <br />&bull; Ultra-lightweight fabric. <br />&bull; Internal drawstring. <br />&bull; Machine wash/dry.</p>"
+          },
+          "more_info": [
+            {
+              "label": "Style",
+              "value": "Basic"
+            },
+            {
+              "label": "Material",
+              "value": "Polyester, Organic Cotton, CoolTech&trade;"
+            },
+            {
+              "label": "Pattern",
+              "value": "Solid-Highlight"
+            },
+            {
+              "label": "Climate",
+              "value": "All-Weather, Warm"
+            },
+            {
+              "label": "Brand",
+              "value": "Nike"
+            }
+          ],
+          "media_gallery": [
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh10-black_main_2.jpg"
+            },
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh10-black_alt1_2.jpg"
+            },
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh10-black_back_2.jpg"
+            }
+          ],
+          "small_image": {
+            "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh10-black_main_2.jpg",
+            "label": "Ana Running Short"
+          },
+          "price_range": {
+            "maximum_price": {
+              "final_price": {
+                "value": 40,
+                "currency": "IDR"
+              }
+            }
+          }
+        },
+        {
+          "id": 2016,
+          "name": "Mimi All-Purpose Short",
+          "sku": "WSH09",
+          "sale": 0,
+          "description": {
+            "html": "<p>You can run, bike or swim in the do-anything, water-resistance Mimi Short. No need to worry about rubbing-induced soreness either, with flatlock seams and soft, chafe-resistant material.</p>\n<p>&bull; Gray/seafoam two-layer shorts.<br />&bull; Water-resistant construction.<br />&bull; Inner mesh brief for breathable support.<br />&bull; 2.0\" inseam.<br />&bull; Reflective trim for visibility.</p>"
+          },
+          "more_info": [
+            {
+              "label": "Style",
+              "value": "Basic"
+            },
+            {
+              "label": "Material",
+              "value": "Nylon, Polyester, Organic Cotton"
+            },
+            {
+              "label": "Pattern",
+              "value": "Solid-Highlight"
+            },
+            {
+              "label": "Climate",
+              "value": "Mild, Warm"
+            },
+            {
+              "label": "Brand",
+              "value": "Nike"
+            }
+          ],
+          "media_gallery": [
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh09-gray_main_2.jpg"
+            },
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh09-gray_alt1_2.jpg"
+            },
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh09-gray_back_2.jpg"
+            }
+          ],
+          "small_image": {
+            "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh09-gray_main_2.jpg",
+            "label": "Mimi All-Purpose Short"
+          },
+          "price_range": {
+            "maximum_price": {
+              "final_price": {
+                "value": 44,
+                "currency": "IDR"
+              }
+            }
+          }
+        },
+        {
+          "id": 2009,
+          "name": "Sybil Running Short",
+          "sku": "WSH08",
+          "sale": 0,
+          "description": {
+            "html": "<p>Fortunately, it's okay to look cute while you're working out. The Sybil Running Short combines a fun, color-blocked design with breathable mesh fabric for sporty-fun style.</p>\n<p>&bull; Blue running shorts with green waist.<br />&bull; Drawstring-adjustable waist.<br />&bull; 4\" inseam. Machine wash/line dry.</p>"
+          },
+          "more_info": [
+            {
+              "label": "Style",
+              "value": "Basic"
+            },
+            {
+              "label": "Material",
+              "value": "Cocona&reg; performance fabric, Cotton, Mesh"
+            },
+            {
+              "label": "Pattern",
+              "value": "Solid-Highlight"
+            },
+            {
+              "label": "Climate",
+              "value": "Indoor, Hot"
+            }
+          ],
+          "media_gallery": [
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh08-purple_main_2.jpg"
+            },
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh08-purple_back_2.jpg"
+            }
+          ],
+          "small_image": {
+            "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh08-purple_main_2.jpg",
+            "label": "Sybil Running Short"
+          },
+          "price_range": {
+            "maximum_price": {
+              "final_price": {
+                "value": 44,
+                "currency": "IDR"
+              }
+            }
+          }
+        },
+        {
+          "id": 2003,
+          "name": "Echo Fit Compression Short",
+          "sku": "WSH07",
+          "sale": 0,
+          "description": {
+            "html": "<p>Your muscles know it's go time the second you pull on the Echo Fit Compression Short. A balance of firm, stimulating squeeze with breathability, it offers the support and comfort you need to give it your all.</p>\r\n<p>&bull; Black compression shorts.<br />&bull; High-waisted cut.<br />&bull; Compression fit.<br />&bull; Inseam: 1.0\". <br />&bull; Machine wash/dry.</p>"
+          },
+          "more_info": [
+            {
+              "label": "Style",
+              "value": "Base Layer, Compression, Snug"
+            },
+            {
+              "label": "Material",
+              "value": "Lycra&reg;, Spandex, Wool"
+            },
+            {
+              "label": "Pattern",
+              "value": "Solid"
+            },
+            {
+              "label": "Climate",
+              "value": "All-Weather, Indoor, Mild, Warm, Hot"
+            },
+            {
+              "label": "Brand",
+              "value": "Nike"
+            }
+          ],
+          "media_gallery": [
+            {
+              "label": "Echo Fit Compression Short",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh07-black_main_2.jpg"
+            },
+            {
+              "label": "Echo Fit Compression Short",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh07-black_back_2.jpg"
+            }
+          ],
+          "small_image": {
+            "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh07-black_main_2.jpg",
+            "label": "Echo Fit Compression Short"
+          },
+          "price_range": {
+            "maximum_price": {
+              "final_price": {
+                "value": 24,
+                "currency": "IDR"
+              }
+            }
+          }
+        },
+        {
+          "id": 1996,
+          "name": "Angel Light Running Short",
+          "sku": "WSH06",
+          "sale": 0,
+          "description": {
+            "html": "<p>The Angel Light Running Short offers comfort in an ultra-lightweight, breathable package. With fabric infused with all-natural Cocona&reg; performance technology, it can whisk away sweat and block UV rays.</p>\n<p>&bull; Dark heather gray running shorts.<br />&bull; Snug fit. <br />&bull; Elastic waistband. <br />&bull; Cocona&reg; performance fabric. <br />&bull; Machine wash/dry.</p>"
+          },
+          "more_info": [
+            {
+              "label": "Style",
+              "value": "Basic, Snug"
+            },
+            {
+              "label": "Material",
+              "value": "Cocona&reg; performance fabric, Mesh, Polyester"
+            },
+            {
+              "label": "Pattern",
+              "value": "Solid"
+            },
+            {
+              "label": "Climate",
+              "value": "All-Weather, Indoor, Hot"
+            },
+            {
+              "label": "Brand",
+              "value": "Nike"
+            }
+          ],
+          "media_gallery": [
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh06-gray_main_2.jpg"
+            },
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh06-gray_alt1_2.jpg"
+            },
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh06-gray_back_2.jpg"
+            }
+          ],
+          "small_image": {
+            "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh06-gray_main_2.jpg",
+            "label": "Angel Light Running Short"
+          },
+          "price_range": {
+            "maximum_price": {
+              "final_price": {
+                "value": 42,
+                "currency": "IDR"
+              }
+            }
+          }
+        },
+        {
+          "id": 1989,
+          "name": "Bess Yoga Short",
+          "sku": "WSH05",
+          "sale": 1,
+          "description": {
+            "html": "<p>Designed for intense physical activity &ndash; think bikram &ndash; our Bess Yoga Short features moisture-wicking, four-way stretch fabric that lets you move in every which way. A vented gusset adds breathability and range of motion.</p>\n<p>&bull; Navy cotton shorts with light bue waist detail.<br />&bull; Front shirred waistband.<br />&bull; Flat-lock, chafe-free side seams.<br />&bull; Vented gusset.<br />&bull; Hidden interior pocket.<br />&bull; Sustainable and recycled fabric.</p>"
+          },
+          "more_info": [
+            {
+              "label": "Style",
+              "value": "Basic"
+            },
+            {
+              "label": "Material",
+              "value": "Cotton, Mesh, CoolTech&trade;"
+            },
+            {
+              "label": "Pattern",
+              "value": "Solid-Highlight"
+            },
+            {
+              "label": "Climate",
+              "value": "All-Weather, Warm, Hot"
+            }
+          ],
+          "media_gallery": [
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh05-blue_main_2.jpg"
+            },
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh05-blue_back_2.jpg"
+            }
+          ],
+          "small_image": {
+            "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh05-blue_main_2.jpg",
+            "label": "Bess Yoga Short"
+          },
+          "price_range": {
+            "maximum_price": {
+              "final_price": {
+                "value": 28,
+                "currency": "IDR"
+              }
+            }
+          }
+        },
+        {
+          "id": 1973,
+          "name": "Artemis Running Short",
+          "sku": "WSH04",
+          "sale": 0,
+          "description": {
+            "html": "<p>Discover smooth jogging and chic comfort each time you slip into the Artemis Running Short. A unique maritime-inspired design and oolor theme features a stretchy drawstring waist.</p>\n<p>&bull; Black rouched shorts with mint waist. <br />&bull; Soft, lightweight construction.<br />&bull; LumaTech&trade; wicking technology.<br />&bull; Semi-fitted.</p>"
+          },
+          "more_info": [
+            {
+              "label": "Style",
+              "value": "Basic"
+            },
+            {
+              "label": "Material",
+              "value": "Spandex, Wool"
+            },
+            {
+              "label": "Pattern",
+              "value": "Solid-Highlight"
+            },
+            {
+              "label": "Climate",
+              "value": "All-Weather, Indoor, Mild, Warm, Hot"
+            }
+          ],
+          "media_gallery": [
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh04-black_main_2.jpg"
+            },
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh04-black_alt1_2.jpg"
+            },
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh04-black_back_2.jpg"
+            }
+          ],
+          "small_image": {
+            "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh04-black_main_2.jpg",
+            "label": "Artemis Running Short"
+          },
+          "price_range": {
+            "maximum_price": {
+              "final_price": {
+                "value": 45,
+                "currency": "IDR"
+              }
+            }
+          }
+        },
+        {
+          "id": 1957,
+          "name": "Gwen Drawstring Bike Short",
+          "sku": "WSH03",
+          "sale": 0,
+          "description": {
+            "html": "<p>For a completely modern style with moisture-wicking CoolTech&trade; technology, try the Gwen Drawstring Bike Short. Subtle grays and eye catching stitching combine with an adjustable waist for the perfect look and fit.</p>\n<p>&bull; Dark heather gray rouched bike shorts.<br />&bull; Fitted. Inseam: 2\". <br />&bull; Machine wash/dry.</p>"
+          },
+          "more_info": [
+            {
+              "label": "Style",
+              "value": "Base Layer, Basic, Snug"
+            },
+            {
+              "label": "Material",
+              "value": "LumaTech&trade;, Organic Cotton"
+            },
+            {
+              "label": "Pattern",
+              "value": "Solid"
+            },
+            {
+              "label": "Climate",
+              "value": "All-Weather, Indoor, Hot"
+            }
+          ],
+          "media_gallery": [
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh03-gray_main_4.jpg"
+            },
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh03-gray_alt1_4.jpg"
+            },
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh03-gray_back_4.jpg"
+            }
+          ],
+          "small_image": {
+            "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh03-gray_main_4.jpg",
+            "label": "Gwen Drawstring Bike Short"
+          },
+          "price_range": {
+            "maximum_price": {
+              "final_price": {
+                "value": 50,
+                "currency": "IDR"
+              }
+            }
+          }
+        },
+        {
+          "id": 1941,
+          "name": "Maxima Drawstring Short",
+          "sku": "WSH02",
+          "sale": 1,
+          "description": {
+            "html": "<p>Even laid-back women like to stay stylish, and that's just what the Maxima Drawstring Short delivers. An elastic waist keeps the fit flexible, on the deck at home or on a trail walk. Sporty tennis flair adds an athletic accent.</p>\n<p>&bull; Light gray run shorts <br />- cotton polyester. <br />&bull; Contrast binding. <br />&bull; 3\" inseam. <br />&bull; Machine wash/dry.</p>"
+          },
+          "more_info": [
+            {
+              "label": "Style",
+              "value": "Basic"
+            },
+            {
+              "label": "Material",
+              "value": "Cotton, Polyester"
+            },
+            {
+              "label": "Pattern",
+              "value": "Solid"
+            },
+            {
+              "label": "Climate",
+              "value": "Indoor, Mild, Warm, Hot"
+            }
+          ],
+          "media_gallery": [
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh02-gray_main_2.jpg"
+            },
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh02-gray_back_2.jpg"
+            }
+          ],
+          "small_image": {
+            "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh02-gray_main_2.jpg",
+            "label": "Maxima Drawstring Short"
+          },
+          "price_range": {
+            "maximum_price": {
+              "final_price": {
+                "value": 28,
+                "currency": "IDR"
+              }
+            }
+          }
+        },
+        {
+          "id": 1925,
+          "name": "Fiona Fitness Short",
+          "sku": "WSH01",
+          "sale": 0,
+          "description": {
+            "html": "<p>Don't let the plain style fool you: the Fiona Fitness Short demands notice on several levels. Comfort, of course. But also a performance-grade wicking fabric that takes everything you can give.</p>\r\n<p>&bull; Black run shorts <br />- cotton/spandex.<br />&bull; 5&rdquo; inseam.<br />&bull; Machine wash/Line dry.</p>"
+          },
+          "more_info": [
+            {
+              "label": "Style",
+              "value": "Base Layer, Basic"
+            },
+            {
+              "label": "Material",
+              "value": "Spandex, Organic Cotton"
+            },
+            {
+              "label": "Pattern",
+              "value": "Solid"
+            },
+            {
+              "label": "Climate",
+              "value": "Indoor, Mild, Warm, Hot"
+            }
+          ],
+          "media_gallery": [
+            {
+              "label": "Fiona Fitness Short",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh01-black_main_2.jpg"
+            },
+            {
+              "label": "Fiona Fitness Short",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh01-black_back_2.jpg"
+            }
+          ],
+          "small_image": {
+            "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/s/wsh01-black_main_2.jpg",
+            "label": "Fiona Fitness Short"
+          },
+          "price_range": {
+            "maximum_price": {
+              "final_price": {
+                "value": 26,
+                "currency": "IDR"
+              }
+            }
+          }
+        },
+        {
+          "id": 1909,
+          "name": "Portia Capri",
+          "sku": "WP13",
+          "sale": 0,
+          "description": {
+            "html": "<p>From yoga at dawn to evenings curled up with a book, our Portia Capri gives you the comfort and freedom to cruise through the day. The high-waisted design keeps you covered while you're bending and stretching, while contrast stripes promise a dash of sporty style.</p>\n<p>&bull; Salmon heather capri sweats.<br />&bull; Relaxed fit, high waist. <br />&bull; Inseam: 21\". <br />&bull; Wide elastic waistband. <br />&bull; Machine wash/dry.</p>"
+          },
+          "more_info": [
+            {
+              "label": "Style",
+              "value": "Capri"
+            },
+            {
+              "label": "Material",
+              "value": "Organic Cotton"
+            },
+            {
+              "label": "Pattern",
+              "value": "Solid"
+            },
+            {
+              "label": "Climate",
+              "value": "Indoor, Mild, Hot"
+            }
+          ],
+          "media_gallery": [
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/p/wp13-orange_main_2.jpg"
+            },
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/p/wp13-orange_back_2.jpg"
+            }
+          ],
+          "small_image": {
+            "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/p/wp13-orange_main_2.jpg",
+            "label": "Portia Capri"
+          },
+          "price_range": {
+            "maximum_price": {
+              "final_price": {
+                "value": 39.2,
+                "currency": "IDR"
+              }
+            }
+          }
+        },
+        {
+          "id": 1902,
+          "name": "Deirdre Relaxed-Fit Capri",
+          "sku": "WP12",
+          "sale": 0,
+          "description": {
+            "html": "<p>Invigorate your yoga practice with this Deirdre Relaxed-Fit Capri, designed to let you move without strain or restriction.</p>\n<p>&bull; Heather gray capris with mint green waist &amp; accents.<br />&bull; Comfortable, relaxed fit with high rise.<br />&bull; Moisture-wicking, 4-way stretch construction.<br />&bull; Lined with mesh for better support.<br />&bull; Hidden pocket at waistband.<br />&bull; Flatlock seams and lined gusset for comfort.</p>"
+          },
+          "more_info": [
+            {
+              "label": "Style",
+              "value": "Capri"
+            },
+            {
+              "label": "Material",
+              "value": "Cocona&reg; performance fabric, Rayon, Organic Cotton"
+            },
+            {
+              "label": "Pattern",
+              "value": "Color-Blocked"
+            },
+            {
+              "label": "Climate",
+              "value": "Indoor, Mild, Hot"
+            }
+          ],
+          "media_gallery": [
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/p/wp12-gray_main_2.jpg"
+            },
+            {
+              "label": "",
+              "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/p/wp12-gray_back_2.jpg"
+            }
+          ],
+          "small_image": {
+            "url": "https://swiftpwa-be.testingnow.me/media/catalog/product/cache/8f52cebd15478e5e402d55b72e1f5d5d/w/p/wp12-gray_main_2.jpg",
+            "label": "Deirdre Relaxed-Fit Capri"
+          },
+          "price_range": {
+            "maximum_price": {
+              "final_price": {
+                "value": 50.4,
+                "currency": "IDR"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }

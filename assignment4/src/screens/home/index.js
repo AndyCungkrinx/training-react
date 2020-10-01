@@ -9,7 +9,7 @@ import SectionTwo from './components/SectionTwo';
 const Home = ({ navigation }) => {
     return (
       <>
-        <Header/>
+        <Header navigation={navigation}/>
         <ScrollView>
           <Banner/>
           <SectionOne/>

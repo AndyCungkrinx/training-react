@@ -5,7 +5,7 @@ const SideMenu = ({navigation}) => {
     const [active, setActive] = React.useState('');
     return (
     <>
-        <Appbar.Header style={{backgroundColor:'#ff7c2b'}}>
+        <Appbar.Header style={{backgroundColor:'#f23535'}}>
             <Appbar.Content title="Menu" style={{alignItems:'center'}}/>
         </Appbar.Header>
         <Drawer.Section>

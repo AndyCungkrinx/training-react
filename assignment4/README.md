@@ -6,6 +6,7 @@ cd training-react/assignment-4
 npm install -f
 npm i fsevents@latest -f 
 npx react-native link react-native-vector-icons
+npx react-codemod rename-unsafe-lifecycles
 
 
 ```

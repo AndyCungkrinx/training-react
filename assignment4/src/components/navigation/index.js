@@ -15,6 +15,12 @@ const getTabBarVisibility = (route) => {
   if (routeName === 'ProductCategory') {
     return false;
   }
+  if (routeName === 'ProductDetail') {
+    return false;
+  }
+  if (routeName === 'Cart') {
+    return false;
+  }
 
   return true;
 }
@@ -30,7 +36,7 @@ const MainNav = () => {
           justifyContent: 'center',
           alignItems: 'center',
           paddingVertical: 10,
-          backgroundColor: '#ff7c2b',
+          backgroundColor: '#f23535',
         },
       }}
       >

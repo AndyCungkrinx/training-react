@@ -4,73 +4,9 @@
       "id": 12,
       "level": 3,
       "name": "Tops",
-      "children": [
-        {
-          "id": 14,
-          "name": "Jackets",
-          "url_key": "jackets-men",
-          "url_path": "men/tops-men/jackets-men",
-          "display_mode": null
-        },
-        {
-          "id": 15,
-          "name": "Hoodies & Sweatshirts",
-          "url_key": "hoodies-and-sweatshirts-men",
-          "url_path": "men/tops-men/hoodies-and-sweatshirts-men",
-          "display_mode": null
-        },
-        {
-          "id": 16,
-          "name": "Tees",
-          "url_key": "tees-men",
-          "url_path": "men/tops-men/tees-men",
-          "display_mode": null
-        },
-        {
-          "id": 17,
-          "name": "Tanks",
-          "url_key": "tanks-men",
-          "url_path": "men/tops-men/tanks-men",
-          "display_mode": null
-        }
-      ],
       "products": {
         "total_count": 50,
         "items": [
-          {
-            "name": "Sample Product with 1 configurable",
-            "sku": "Sample Product with 1 configurable",
-            "sale": null,
-            "small_image": {
-              "url": "https://swiftpwa-be.testingnow.me/static/version1600943233/graphql/_view/en_US/Magento_Catalog/images/product/placeholder/small_image.jpg",
-              "label": "Sample Product with 1 configurable"
-            },
-            "price_range": {
-              "maximum_price": {
-                "final_price": {
-                  "value": 123,
-                  "currency": "USD"
-                }
-              }
-            }
-          },
-          {
-            "name": "Test Bundle Product",
-            "sku": "test-bundle",
-            "sale": null,
-            "small_image": {
-              "url": "https://swiftpwa-be.testingnow.me/static/version1600943233/graphql/_view/en_US/Magento_Catalog/images/product/placeholder/small_image.jpg",
-              "label": "Test Bundle Product"
-            },
-            "price_range": {
-              "maximum_price": {
-                "final_price": {
-                  "value": 7700,
-                  "currency": "USD"
-                }
-              }
-            }
-          },
           {
             "name": "Cassius Sparring Tank",
             "sku": "MT12",
@@ -384,36 +320,6 @@
       "id": 21,
       "level": 3,
       "name": "Tops",
-      "children": [
-        {
-          "id": 23,
-          "name": "Jackets",
-          "url_key": "jackets-women",
-          "url_path": "women/tops-women/jackets-women",
-          "display_mode": null
-        },
-        {
-          "id": 24,
-          "name": "Hoodies & Sweatshirts",
-          "url_key": "hoodies-and-sweatshirts-women",
-          "url_path": "women/tops-women/hoodies-and-sweatshirts-women",
-          "display_mode": null
-        },
-        {
-          "id": 25,
-          "name": "Tees",
-          "url_key": "tees-women",
-          "url_path": "women/tops-women/tees-women",
-          "display_mode": null
-        },
-        {
-          "id": 26,
-          "name": "Bras & Tanks",
-          "url_key": "tanks-women",
-          "url_path": "women/tops-women/tanks-women",
-          "display_mode": null
-        }
-      ],
       "products": {
         "total_count": 50,
         "items": [
@@ -758,16 +664,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "id": 42,
-      "level": 3,
-      "name": "Tops Men",
-      "children": [],
-      "products": {
-        "total_count": 0,
-        "items": []
       }
     }
   ]

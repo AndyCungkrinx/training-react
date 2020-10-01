@@ -4,7 +4,7 @@ import { Card, Title } from 'react-native-paper';
 import FastImage from 'react-native-fast-image';
 import data from '../../../components/feed/SectionTwo';
 
-const SectionOne = () => {
+const SectionOne = ({navigation}) => {
   const category = data.categoryList;
   //console.log(category);
   //const product = data.categoryList[0].products.items;
@@ -12,13 +12,19 @@ const SectionOne = () => {
   return(
     <>
     {category.map((category) => {
+      const items = category.products.items;
+      //console.log(item);
       return (
           <Card key={category.id} style={{paddingTop:30,paddingBottom: 10}}>
             <Title style={styles.title}>{category.name}</Title>
             <ScrollView horizontal style={{paddingVertical: 10}}>
             {
-              category.products.items.map((item) =>(
-                <Card.Content key={item.sku} style={styles.container}>
+              items.map((item) =>(
+                <Card.Content 
+                key={item.sku} 
+                style={styles.container}
+                onPress={() => navigation.navigate('ProductDetail', { category_id: `${category.id}`, sku:  `${item.sku}`})}
+                >
                     <FastImage
                       style={styles.item}
                       source={{

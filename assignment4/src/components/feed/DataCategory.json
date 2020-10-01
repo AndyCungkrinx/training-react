@@ -67,30 +67,6 @@
         ]
       },
       {
-        "id": 4,
-        "level": 3,
-        "name": "Bags",
-        "children": []
-      },
-      {
-        "id": 5,
-        "level": 3,
-        "name": "Fitness Equipment",
-        "children": []
-      },
-      {
-        "id": 6,
-        "level": 3,
-        "name": "Watches",
-        "children": []
-      },
-      {
-        "id": 8,
-        "level": 3,
-        "name": "New Luma Yoga Collection",
-        "children": []
-      },
-      {
         "id": 9,
         "level": 2,
         "name": "Training",
@@ -100,12 +76,6 @@
             "name": "Video Download"
           }
         ]
-      },
-      {
-        "id": 10,
-        "level": 3,
-        "name": "Video Download",
-        "children": []
       },
       {
         "id": 11,
@@ -159,42 +129,6 @@
             "name": "Shorts"
           }
         ]
-      },
-      {
-        "id": 14,
-        "level": 4,
-        "name": "Jackets",
-        "children": []
-      },
-      {
-        "id": 15,
-        "level": 4,
-        "name": "Hoodies & Sweatshirts",
-        "children": []
-      },
-      {
-        "id": 16,
-        "level": 4,
-        "name": "Tees",
-        "children": []
-      },
-      {
-        "id": 17,
-        "level": 4,
-        "name": "Tanks",
-        "children": []
-      },
-      {
-        "id": 18,
-        "level": 4,
-        "name": "Pants",
-        "children": []
-      },
-      {
-        "id": 19,
-        "level": 4,
-        "name": "Shorts",
-        "children": []
       },
       {
         "id": 20,
@@ -261,102 +195,6 @@
         ]
       },
       {
-        "id": 24,
-        "level": 4,
-        "name": "Hoodies & Sweatshirts",
-        "children": []
-      },
-      {
-        "id": 25,
-        "level": 4,
-        "name": "Tees",
-        "children": []
-      },
-      {
-        "id": 26,
-        "level": 4,
-        "name": "Bras & Tanks",
-        "children": []
-      },
-      {
-        "id": 27,
-        "level": 4,
-        "name": "Pants",
-        "children": []
-      },
-      {
-        "id": 28,
-        "level": 4,
-        "name": "Shorts",
-        "children": []
-      },
-      {
-        "id": 30,
-        "level": 3,
-        "name": "Women Sale",
-        "children": []
-      },
-      {
-        "id": 31,
-        "level": 3,
-        "name": "Men Sale",
-        "children": []
-      },
-      {
-        "id": 32,
-        "level": 3,
-        "name": "Pants",
-        "children": []
-      },
-      {
-        "id": 33,
-        "level": 3,
-        "name": "Tees",
-        "children": []
-      },
-      {
-        "id": 34,
-        "level": 3,
-        "name": "Erin Recommends",
-        "children": []
-      },
-      {
-        "id": 35,
-        "level": 3,
-        "name": "Performance Fabrics",
-        "children": []
-      },
-      {
-        "id": 36,
-        "level": 3,
-        "name": "Eco Friendly",
-        "children": []
-      },
-      {
-        "id": 37,
-        "level": 2,
-        "name": "Sale",
-        "children": []
-      },
-      {
-        "id": 38,
-        "level": 2,
-        "name": "What's New",
-        "children": []
-      },
-      {
-        "id": 39,
-        "level": 3,
-        "name": "Performance Sportswear New",
-        "children": []
-      },
-      {
-        "id": 40,
-        "level": 3,
-        "name": "Eco Collection New",
-        "children": []
-      },
-      {
         "id": 41,
         "level": 2,
         "name": "Test",
@@ -366,12 +204,6 @@
             "name": "Tops Men"
           }
         ]
-      },
-      {
-        "id": 42,
-        "level": 3,
-        "name": "Tops Men",
-        "children": []
       },
       {
         "id": 44,
@@ -387,18 +219,6 @@
             "name": "Categories"
           }
         ]
-      },
-      {
-        "id": 45,
-        "level": 4,
-        "name": "Best Sellers",
-        "children": []
-      },
-      {
-        "id": 46,
-        "level": 4,
-        "name": "Ramadhan Sale",
-        "children": []
       },
       {
         "id": 47,
@@ -431,18 +251,6 @@
         ]
       },
       {
-        "id": 49,
-        "level": 4,
-        "name": "#dirumahaja",
-        "children": []
-      },
-      {
-        "id": 50,
-        "level": 4,
-        "name": "Sporty Style test",
-        "children": []
-      },
-      {
         "id": 51,
         "level": 2,
         "name": "Brands",
@@ -452,24 +260,6 @@
             "name": "Nike"
           }
         ]
-      },
-      {
-        "id": 52,
-        "level": 3,
-        "name": "Nike",
-        "children": []
-      },
-      {
-        "id": 53,
-        "level": 2,
-        "name": "promo",
-        "children": []
-      },
-      {
-        "id": 54,
-        "level": 5,
-        "name": "Jackets Sweater",
-        "children": []
       }
     ]
   }

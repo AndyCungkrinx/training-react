@@ -12,7 +12,7 @@ import MainNav from './src/components/navigation';
 import {NavigationContainer} from '@react-navigation/native';
 
 const App = () => {
-  console.log('HERE', Platform.OS)
+  console.log('Training react assignment-4', Platform.OS)
   return (
     <>
       <StatusBar barStyle="dark-content" />

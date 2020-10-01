@@ -19,7 +19,7 @@ const Category = ({ navigation }) => {
                     <List.Item 
                     title={child.name} 
                     left={props => <List.Icon {...props} icon="chart-bubble" key={index+1} />}
-                    onPress={() => navigation.navigate('ProductCategory', { category_id: `${val.id}`, child_id:  `${child.id}`})} 
+                    onPress={() => navigation.navigate('ProductCategory', { child_id:  `${child.id}`})} 
                     />
                 </View>
                 ))}
@@ -32,7 +32,7 @@ const Category = ({ navigation }) => {
     }
     return (
         <ScrollView> 
-            <Appbar.Header style={{backgroundColor:'#ff7c2b',}}>
+            <Appbar.Header style={{backgroundColor:'#f23535',}}>
                 <Appbar.Content title="Category" style={{alignItems:'center'}} />
             </Appbar.Header>
             <ListCategory/>

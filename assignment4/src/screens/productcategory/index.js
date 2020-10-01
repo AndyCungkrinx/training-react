@@ -4,22 +4,22 @@ import { View, ScrollView, StyleSheet } from 'react-native';
 import data from '../../components/feed/CategoryList';
 import FastImage from 'react-native-fast-image';
 
-const ProductCategory = ({ route }) => {
-  const { category_id, child_id } = route.params;
+const ProductCategory = ({ navigation, route }) => {
+  const { child_id } = route.params;
   const category = data.categoryList;
   
   const ListCategory = () => {
     return(
     <>
-    {category.filter(valx => valx.id == category_id).map(val => {
+    {category.filter(valx => valx.id == child_id).map(val => {
       const product = val.products.items;
       const children = val.children;
-      console.log(children);
+      //console.log(children);
       return (
-        <>
+        <View key={val.id}>
         <ScrollView horizontal>
           {children.map((child,index) => (
-            <Card style={styles.bannercontainer} key={index+1}>
+            <Card style={styles.bannercontainer} key={index}>
               <Card.Content style={styles.banner}>
                 <Card.Cover source={{ uri: 'https://bassamalthawadi.com/en/wp-content/uploads/2014/04/dummy-image-green-e1398449160839.jpg' }} style={{width:'100%',height:200}} />
                 <Title>{child.name}</Title>
@@ -28,12 +28,16 @@ const ProductCategory = ({ route }) => {
           ))}
         </ScrollView>
         <View style={{marginTop:10}}>
-          <Title key={val.id} style={styles.title}>{val.name}</Title>
+          <Title style={styles.title}>{val.name}</Title>
           <Divider/>
         </View>
         <View style={styles.container}>
           {product.map((item) => (
-            <Card style={styles.productcontainer} key={item.sku}>
+            <Card 
+            style={styles.productcontainer} 
+            key={item.sku}
+            onPress={() => navigation.navigate('ProductDetail', { category_id: `${val.id}`, sku:  `${item.sku}`})} 
+            >
               <FastImage
                 style={styles.item}
                 source={{
@@ -46,13 +50,13 @@ const ProductCategory = ({ route }) => {
               <Title style={styles.text}>{item.name}</Title>
               <Card.Actions>
                 <Text>
-                  {item.price_range.maximum_price.final_price.value} {item.price_range.maximum_price.final_price.currency}
+                  {item.price_range.maximum_price.final_price.value}00 {item.price_range.maximum_price.final_price.currency}
                 </Text>
               </Card.Actions>
             </Card>
           ))}
         </View>
-        </>
+        </View>
       )
     })}
     </>
@@ -61,7 +65,7 @@ const ProductCategory = ({ route }) => {
   
   return (
     <>
-    <Appbar.Header style={{backgroundColor:'#ff7c2b'}}>
+    <Appbar.Header style={{backgroundColor:'#f23535'}}>
       <Appbar.Content title="Product Categories" style={{alignItems:'center'}} />
     </Appbar.Header>
     <ScrollView>
