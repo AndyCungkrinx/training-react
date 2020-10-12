@@ -17,7 +17,8 @@ import {
   TextInput,
   Button,
   TouchableOpacity,
-  Dimensions
+  Dimensions,
+  Platform
 } from 'react-native';
 
 import {
@@ -30,16 +31,16 @@ import {
 import {NavigationContainer} from '@react-navigation/native';
 
 import Home from './src/screens/Home'
-//import HomeStack from './src/navigations/HomeStack'
+import HomeStack from './src/navigations/HomeStack'
 import MainTab from './src/navigations/MainTab'
 
 const App = () => {
-
+  console.log('HERE', Platform.OS)
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <NavigationContainer>
-        <MainTab/>
+        <MainTab />
       </NavigationContainer>
     </>
   );

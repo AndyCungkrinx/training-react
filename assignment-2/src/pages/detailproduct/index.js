@@ -11,6 +11,7 @@ export default function DetailProduct() {
     let idproduct = query && query.get("productId");
     let endpoint= CategoryProducts ;
     const handleAdd = () => {
+      
       dispatch(Cart({
           product_id: idproduct,
           title: document.getElementById("productTitle").innerText,
