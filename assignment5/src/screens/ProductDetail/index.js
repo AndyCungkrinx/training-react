@@ -199,7 +199,6 @@ const AddCart = ({qty,sku,image,name,price,navigation}) => {
       })
         .then((res) => console.log(cartId))
         .catch((err) => console.log(err));
-      alert('Berhasil menambahkan ke shoping cart');
     };
     return (
     <Button 
@@ -207,7 +206,7 @@ const AddCart = ({qty,sku,image,name,price,navigation}) => {
       style={styles.addcart}
       mode='outlined' 
       color='#f23535'
-      onPress={() => handleAdd()}>
+      onPress={() => handleAdd(alert('Berhasil menambahkan ke shoping cart'))}>
       Add To Cart
     </Button>
     )
