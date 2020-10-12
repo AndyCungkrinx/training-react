@@ -71,6 +71,7 @@ const Cart = ({route}) => {
             <Text style={{width:90, height:100}}>Total Price</Text>
             <Text style={{width:90, height:100}}>Price</Text>
             <Text style={{width:110, height:100}}>Qty</Text>
+            <Text style={{width:110, height:100}}>Name</Text>
         </View>
         {cartitem.map((val) => {
         const noimage = 'https://swiftpwa.testingnow.me/assets/img/placeholder.png';
@@ -98,7 +99,7 @@ const Cart = ({route}) => {
                 }}
                 resizeMode={FastImage.resizeMode.contain}
               />
-            <Text style={styles.item}>{val.name}</Text>
+            <Text style={styles.item}>{val.product.name}</Text>
             <Text style={styles.item}>{val.quantity}</Text>
             <Text style={styles.item}>{val.prices.price.value}000 IDR</Text>
             <Text style={styles.item}>{total}000 IDR</Text>
