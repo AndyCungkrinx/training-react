@@ -199,6 +199,7 @@ const AddCart = ({qty,sku,image,name,price,navigation}) => {
       })
         .then((res) => console.log(cartId))
         .catch((err) => console.log(err));
+      alert('Berhasil menambahkan ke shoping cart');
     };
     return (
     <Button 
